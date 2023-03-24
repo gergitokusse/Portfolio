@@ -190,8 +190,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-
-If you like this project...
+If you like this project hit the like button
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -205,16 +204,7 @@ I would like to thank microverse code reviews
 
 <!-- FAQ (optional) -->
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
