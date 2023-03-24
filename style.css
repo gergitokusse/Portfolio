@@ -29,6 +29,11 @@ body {
   background: #fff;
 }
 
+.icon {
+  width: 8px;
+  height: 8px;
+}
+
 .bg-n-300 {
   background: #f7f7f9;
 }
@@ -159,6 +164,7 @@ body {
   animation-name: btn-hover;
   animation-fill-mode: forwards;
   animation-delay: 0s;
+  background-color: rgb(101, 86, 235);
 }
 
 .btn:focus {
@@ -193,7 +199,7 @@ body {
   content: "";
   position: absolute;
   background-color: #fff;
-  background-image: url("images/shapes.png");
+  background-image: url("img/shapes.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
