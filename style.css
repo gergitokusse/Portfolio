@@ -164,7 +164,8 @@ body {
   animation-name: btn-hover;
   animation-fill-mode: forwards;
   animation-delay: 0s;
-  background-color: rgb(101, 86, 235);
+  background-color: rgb(61, 46, 197);
+  color: white;
 }
 
 .btn:focus {
@@ -268,17 +269,13 @@ body {
 
 .card__subtitle {
   align-items: center;
-  column-gap: 2rem;
+  column-gap: 1rem;
   margin: 20px 0;
 }
 
 .card__subtitle-ul {
   margin: 0;
   padding: 0;
-}
-
-.card__subtitle-li {
-  margin-right: 2rem;
 }
 
 .card__topics {
