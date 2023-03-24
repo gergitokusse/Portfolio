@@ -30,7 +30,7 @@ After you're finished please remove all the comments and instructions!
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Gergito Portfoilo</b></h3>
 
 </div>
 
@@ -62,9 +62,12 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Portfolio-setup-and-mobile-first] <a name="about-project"></a>
 
-**[your_project__name]** is a...
+**[This port folio is for Gergito As a software developer]**
 
 ## 🛠 Built With <a name="built-with"></a>
+-Html
+-Css
+-Github
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -76,61 +79,39 @@ After you're finished please remove all the comments and instructions!
   </ul>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
-
+- **[added html, css, ]**
+- **[Github flow and linters]**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
-
 ### Prerequisites
 
-In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
-
+1- Web browser
+2- Code editor
+3- Version Control System (git)
 ### Setup
 
 Clone this repository to your desired folder:
+
+Run this commands:
+
+```sh
+  cd my-folder
+  git clone https://github.com/mohashyne/msa-portfolio.git
+```
+
+-
 
 <!--
 Example commands:
@@ -145,66 +126,39 @@ Example commands:
 
 Install this project with:
 
-<!--
-Example command:
+Run this command:
 
 ```sh
-  cd my-project
-  gem install
+  cd msa-portfolio
+  npm install
 ```
---->
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
-```sh
-  rails server
 ```
---->
+launch index.html using live server or live preview
+```
 
 ### Run tests
 
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+comming soon
 
 ### Deployment
 
 You can deploy this project using:
 
-<!--
-Example:
-
-```sh
-
-```
- -->
-
+comming soon
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Gergito K.**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
+- GitHub: [@githubhandle](https://github.com/gergitokusse)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
@@ -214,9 +168,11 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] [Add Header]
+- [ ] [Add Main]
+- [ ] [Add footer]
+- [ ] [Add styling]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -243,7 +199,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank...
+I would like to thank microverse code reviews
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
