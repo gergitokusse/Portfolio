@@ -133,5 +133,7 @@ footer h3:hover {
 .icon:hover { background-color: #23a3fa; }
 
 @media (min-width: 375px) {
-  
+  body {
+    background-color: white;
+  }
 }
