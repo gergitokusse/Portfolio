@@ -645,7 +645,7 @@ body {
 }
 
 /* from Ensaha  */
-.form-container-2 {
+/* .form-container-2 {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -653,6 +653,18 @@ body {
   background-repeat: no-repeat;
   height: 779px;
   margin-top: 30px;
+} */
+/* new css */
+.form-container-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-color: #6070ff;
+  border-top-left-radius: 10%;
+  margin-top: -20px;
+  background-image: url("./img/Ellipse\ 3\ \(2\).png"), url("./img/Rectangle\ 4\ \(2\).png"), url("./img/Ellipse\ 12\ \(2\).png"), url("./img/Ellipse\ 5\ \(2\).png"), url("./img/Rectangle\ 7\ \(2\).png");
+  background-position: 100% 55px,100% 30px,50% 55px,70% 95%,75% 95%;
 }
 
 .form-header-2 {
@@ -675,7 +687,8 @@ body {
   font-size: 20px;
   text-align: center;
   line-height: 28px;
-  margin-top: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   color: #ebebff;
 }
 
@@ -696,7 +709,6 @@ body {
   font-size: 17px;
   font-weight: 400;
   font-family: "Poppins", sans-serif;
-  margin-top: 15px;
 }
 
 .form-btn-2 {
@@ -716,7 +728,6 @@ body {
 
 /* Enssah's feature  */
 .type-text {
-  margin-top: 10px;
   margin-bottom: 20px;
   border: 1px solid #cfd8dc;
   width: 327px;
