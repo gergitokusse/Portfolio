@@ -714,3 +714,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
+.form-btn-2:hover{
+  background-color: rgb(61, 46, 197);
+  color: white;
+}
