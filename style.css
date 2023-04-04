@@ -644,15 +644,17 @@ body {
   }
 }
 
-/* from Ensaha  */
-.form-container-2 {
+/* new css */
+.form-container-2{
   display: flex;
-  align-items: center;
   flex-direction: column;
-  background-image: url('./img/Contact\ me.png');
+  align-items: center;
   background-repeat: no-repeat;
-  height: 779px;
-  margin-top: 30px;
+  background-color: #6070ff;
+  border-top-left-radius: 10%;
+  margin-top: -20px;
+  background-image: url("./img/Ellipse\ 3\ \(2\).png"), url("./img/Rectangle\ 4\ \(2\).png"), url("./img/Ellipse\ 12\ \(2\).png"), url("./img/Ellipse\ 5\ \(2\).png"), url("./img/Rectangle\ 7\ \(2\).png");
+  background-position: 100% 55px,100% 30px,50% 55px,70% 95%,75% 95%;
 }
 
 .form-header-2 {
@@ -662,7 +664,7 @@ body {
   font-weight: 700;
   font-size: 40px;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 110px;
   line-height: 52px;
   color: #fff;
 }
