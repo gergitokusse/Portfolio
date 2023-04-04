@@ -649,7 +649,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-image: url('./img/Contact\ me.png');
+  background-image: url("./img/Contact\ me.png");
   background-repeat: no-repeat;
   height: 779px;
   margin-top: 30px;
@@ -657,7 +657,7 @@ body {
 
 .form-header-2 {
   width: 810px;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -669,7 +669,7 @@ body {
 
 .contact-form-2 p {
   width: 327px;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -684,7 +684,8 @@ body {
   flex-direction: column;
 }
 
-.input-email {
+.input-email,
+.input-text {
   border: 1px solid #cfd8dc;
   height: 48px;
   width: 327px;
@@ -694,7 +695,7 @@ body {
   color: #172b4d;
   font-size: 17px;
   font-weight: 400;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-top: 15px;
 }
 
@@ -707,7 +708,7 @@ body {
   color: #6070ff;
   font-size: 17px;
   font-weight: 500;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
