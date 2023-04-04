@@ -30,7 +30,7 @@ After you're finished please remove all the comments and instructions!
   <img src="img/index.jpg" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Gergito Portfoilo Collaboration with teamate</b></h3>
+  <h3><b>Gergito's Portfoilo</b></h3>
 
 </div>
 
@@ -62,20 +62,18 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Portfolio-setup-and-mobile-first] <a name="about-project"></a>
 
-**[This port folio is for Gergito As a software developer]**
+**[This portfolio is for Gergito As a software developer]**
 
 ## 🛠 Built With <a name="built-with"></a>
--Html
+->Html
 -Css
 -Github
 
 ### Tech Stack <a name="tech-stack"></a>
-
-
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://reactjs.org/">React.js(Loading...)</a></li>
   </ul>
 </details>
 
@@ -83,7 +81,7 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- **[added html, css, ]**
+- **[added html, css, and contact form]**
 - **[Github flow and linters]**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,11 +93,11 @@ After you're finished please remove all the comments and instructions!
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
-### Prerequisites
+## Prerequisites
 
-1- Web browser
-2- Code editor
-3- Version Control System (git)
+#### 1- Web browser 
+#### 2- Code editor
+#### 3- Version Control System (git)
 ### Setup
 
 Clone this repository to your desired folder:
@@ -112,16 +110,6 @@ Run this commands:
 ```
 
 -
-
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
-
 ### Install
 
 Install this project with:
@@ -168,8 +156,9 @@ comming soon
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] [Add Header]
-- [ ] [Add Main]
+- [ ] [Add Header section]
+- [ ] [Add Main section]
+- [ ] [Add Contact form section]
 - [ ] [Add footer]
 - [ ] [Add styling]
 
@@ -198,7 +187,7 @@ If you like this project hit the like button
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank microverse code reviews
+I would like to thank microverse code reviews and my code partners who collabore on the project work.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
