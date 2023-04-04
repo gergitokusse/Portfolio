@@ -645,7 +645,6 @@ body {
 }
 
 /* from Ensaha  */
-
 .form-container-2 {
   display: flex;
   align-items: center;
@@ -665,7 +664,7 @@ body {
   text-align: center;
   margin-top: 100px;
   line-height: 52px;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .contact-form-2 p {
@@ -677,7 +676,7 @@ body {
   text-align: center;
   line-height: 28px;
   margin-top: 10px;
-  color: #EBEBFF;
+  color: #ebebff;
 }
 
 .contact-me-2 {
@@ -686,13 +685,13 @@ body {
 }
 
 .input-email {
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8dc;
   height: 48px;
   width: 327px;
   border-radius: 8px;
   padding-left: 16px;
   margin-bottom: 16px;
-  color: #172B4D;
+  color: #172b4d;
   font-size: 17px;
   font-weight: 400;
   font-family: 'Poppins',Arial, Helvetica, sans-serif;
@@ -700,7 +699,7 @@ body {
 }
 
 .form-btn-2 {
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8dc;
   height: 44px;
   width: 142px;
   border-radius: 8px;
