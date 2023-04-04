@@ -713,3 +713,20 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
+
+/* Enssah's feature  */
+.type-text {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #cfd8dc;
+  width: 327px;
+  border-radius: 8px;
+  height: 170px;
+  background-color: #fff;
+  padding: 15px 16px 38px;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  line-height: 24px;
+  color: #b3bac5;
+}
