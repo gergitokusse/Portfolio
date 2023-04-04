@@ -643,3 +643,73 @@ body {
     flex-basis: 25rem;
   }
 }
+
+/* from Ensaha  */
+/* contact form  */
+.form-container-2 {
+  display: flex;
+  align-items: center;
+flex-direction: column;
+  background-image: url('./img/Contact\ me.png');
+  background-repeat: no-repeat;
+  height: 779px;
+  margin-top: 30px;
+
+}
+.form-header-2 {
+  width: 810px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 100px;
+  line-height: 52px;
+  color: #FFFFFF;
+}
+.contact-form-2 p {
+  width: 327px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  line-height: 28px;
+  margin-top: 10px;
+  color: #EBEBFF;
+
+
+}
+.contact-me-2 {
+  display: flex;
+  flex-direction: column;
+  
+}
+.input-email {
+  border: 1px solid #CFD8DC;
+  height: 48px;
+  width: 327px;
+  border-radius: 8px;
+  padding-left: 16px;
+  margin-bottom: 16px;
+  color: #172B4D;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: 'Poppins',Arial, Helvetica, sans-serif;
+  margin-top: 15px;
+
+}
+.form-btn-2 {
+  border: 1px solid #CFD8DC;
+  height: 44px;
+  width: 142px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  color: #6070ff;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: 'Poppins',Arial, Helvetica, sans-serif;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
