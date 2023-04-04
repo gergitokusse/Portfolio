@@ -694,7 +694,7 @@ body {
   color: #172b4d;
   font-size: 17px;
   font-weight: 400;
-  font-family: 'Poppins',Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin-top: 15px;
 }
 
@@ -707,7 +707,7 @@ body {
   color: #6070ff;
   font-size: 17px;
   font-weight: 500;
-  font-family: 'Poppins',Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
