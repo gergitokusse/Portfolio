@@ -650,10 +650,10 @@ body {
   align-items: center;
   background-repeat: no-repeat;
   background-color: #6070ff;
-  border-top-left-radius: 10%;
+  border-top-left-radius: 180px 100px;
   margin-top: -20px;
-  background-image: url("./img/Ellipse\ 3\ \(2\).png"), url("./img/Rectangle\ 4\ \(2\).png"), url("./img/Ellipse\ 12\ \(2\).png"), url("./img/Ellipse\ 5\ \(2\).png"), url("./img/Rectangle\ 7\ \(2\).png");
-  background-position: 100% 55px, 100% 30px, 50% 55px, 70% 95%, 75% 95%;
+  background-image: url("./img/Ellipse\ 3\ \(2\).png"), url("./img/Rectangle\ 4\ \(2\).png"), url("./img/Ellipse\ 12\ \(2\).png"), url("./img/Ellipse\ 5\ \(2\).png"), url("./img/Rectangle\ 7\ \(2\).png"), url("./img/Shape.png");
+  background-position: 100% 55px, 100% 30px, 50% 55px, 70% 95%, 75% 95%, 50% 99%;
 }
 
 .form-header-2 {
@@ -716,6 +716,11 @@ body {
   letter-spacing: 0.03em;
 }
 
+.form-btn-2:hover {
+  background-color: rgb(61, 46, 197);
+  color: white;
+  cursor: pointer;
+}
 .type-text {
   margin-bottom: 20px;
   border: 1px solid #cfd8dc;
