@@ -154,11 +154,24 @@ comming soon
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Authors/Collaborators <a name="authors"></a>
 
 👤 **Gergito K.**
 
 - GitHub: [@githubhandle](https://github.com/gergitokusse)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+
+👤 **Ensaha Momo**
+
+- GitHub: [@githubhandle](https://github.com/ensahmomo)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+
+
+👤 **Brian Kamau**
+
+- GitHub: [@githubhandle](https://github.com/brainkamau)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
@@ -170,6 +183,7 @@ comming soon
 
 - [ ] [Add Header]
 - [ ] [Add Main]
+- [ ] [Add contact form]
 - [ ] [Add footer]
 - [ ] [Add styling]
 
@@ -198,7 +212,7 @@ If you like this project hit the like button
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank microverse code reviews
+I would like to thank microverse code reviews, student success team and collaboretrs who participate on the project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
