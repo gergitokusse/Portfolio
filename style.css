@@ -788,4 +788,12 @@ body {
   .hamburguer-img {
     display: none;
   }
+
+  .about {
+    display: flex;
+  }
+
+  .tools {
+    flex-grow: 1.5;
+  }
 }
