@@ -711,10 +711,19 @@ body {
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-delay: 0.5s;
+}
+
+.form-btn-2:focus {
+  background-color: rgb(61, 46, 197);
+  color: white;
+  cursor: pointer;
 }
 
 .form-btn-2:hover {
-  background-color: rgb(61, 46, 197);
+  background-color: #6070ff;
   color: white;
   cursor: pointer;
 }
@@ -734,9 +743,17 @@ body {
   color: #b3bac5;
 }
 
+.head {
+  background-image: url("./img/Rectangle\ 6.png"), url("./img/Ellipse\ 11.png"), url("./img/Rectangle\ 7.png"), url("./img/Ellipse\ 5.png"), url("./img/Rectangle\ 4.png"), url("./img/Ellipse\ 3.png"), url("./img/Ellipse\ 12.png"), url("./img/Ellipse\ 13.png"), url("./img/Ellipse\ 4.png"), url("./img/Rectangle\ 5.png");
+  background-position: 4% 29px, 9% 55px, 50% 55px, 50% 65px, 85% 5px, 90% 85px, 13% 85%, 12% 90%, 55% 87%, 50% 92%;
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 5em;
+  background-color: #fff;
+}
 /* desktop version control */
 
 @media (min-width: 768px) {
+
   .menu-list {
     list-style: none;
     display: flex;
@@ -747,14 +764,6 @@ body {
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-  }
-
-  .head {
-    background-image: url("./img/Rectangle\ 6.png"), url("./img/Ellipse\ 11.png"), url("./img/Rectangle\ 7.png"), url("./img/Ellipse\ 5.png"), url("./img/Rectangle\ 4.png"), url("./img/Ellipse\ 3.png"), url("./img/Ellipse\ 12.png"), url("./img/Ellipse\ 13.png"), url("./img/Ellipse\ 4.png"), url("./img/Rectangle\ 5.png");
-    background-position: 4% 29px, 9% 55px, 50% 55px, 50% 65px, 85% 5px, 90% 85px, 13% 85%, 12% 90%, 55% 87%, 50% 92%;
-    background-repeat: no-repeat;
-    border-bottom-left-radius: 5em;
-    background-color: #fff;
   }
 
   .form-btn-2 {
@@ -797,3 +806,79 @@ body {
     flex-grow: 1.5;
   }
 }
+
+/* Transition and Animation */
+
+nav ul li {
+  padding: 8px;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 1s;
+  border-bottom: 1px solid #fff;
+}
+
+nav ul li:hover,
+nav ul li:focus {
+  color: #396df2;
+  border-bottom: 1px solid #396df2;
+}
+
+nav a{
+  transition: all 2s;
+}
+
+nav a {
+  rotate: 360deg;
+}
+
+nav .bar_head:hover {
+  font-size: 20px;
+  color: #b3bac5;
+}
+
+.section-one h1 {
+  animation-duration: 0.75s;
+  animation-name: slidefromright;
+}
+
+@keyframes slidefromright {
+  from {
+    margin-left: 50%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
+.card__btn .btn, .about_me .btn {
+  transition-property: all;
+  transition-duration: 0.25s;
+  transition-delay: 0.25s;
+}
+
+.card__btn .btn:focus, .about_me .btn:focus {
+  background-color: #2230d2;
+  color: white;
+}
+
+.card__btn .btn:hover, .about_me .btn:hover {
+  background-color: #7f8cff;
+  color: white;
+}
+
+.p:hover {
+  animation-name: move-right;
+  animation-duration: 1.5s;
+  animation-delay: 1s;
+}
+
+@keyframes move-right {
+  from{
+    margin-left: -20%;
+  }
+
+  to{
+    margin-left: 0%;
+  }
+}
+
