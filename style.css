@@ -212,6 +212,11 @@ body {
   position: relative;
   padding: 6rem 1.5rem;
   z-index: 10;
+  background-image: url("./img/Rectangle\ 6.png"), url("./img/Ellipse\ 11.png"), url("./img/Rectangle\ 7.png"), url("./img/Ellipse\ 5.png"), url("./img/Rectangle\ 4.png"), url("./img/Ellipse\ 3.png"), url("./img/Ellipse\ 12.png"), url("./img/Ellipse\ 13.png"), url("./img/Ellipse\ 4.png"), url("./img/Rectangle\ 5.png");
+  background-position: 4% 29px, 9% 55px, 50% 55px, 50% 65px, 85% 5px, 90% 85px, 13% 85%, 12% 90%, 55% 87%, 50% 92%;
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 5em;
+  background-color: #fff;
 }
 
 .head__title {
@@ -344,6 +349,14 @@ body {
   transform: rotate(90deg);
 }
 
+nav ul li {
+  padding: 8px;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 1s;
+  border-bottom: 1px solid #fff;
+}
+
 .langs__bottom li {
   align-items: center;
   gap: 1rem;
@@ -430,6 +443,14 @@ body {
 .modal__btn {
   margin: 1rem 0;
 }
+
+/* Transition and Animation */
+nav a {
+  transition: all 2s;
+  rotate: 360deg;
+}
+
+/* end of T and A */
 
 .modal__btn li a {
   border: 1px solid #6070ff;
@@ -570,11 +591,6 @@ body {
   .head::before {
     padding: 6rem;
     border-bottom-left-radius: 8rem;
-  }
-
-  .head {
-    padding: 10rem;
-    padding-right: 15rem;
   }
 
   .head__title span {
@@ -743,16 +759,14 @@ body {
   color: #b3bac5;
 }
 
-.head {
-  background-image: url("./img/Rectangle\ 6.png"), url("./img/Ellipse\ 11.png"), url("./img/Rectangle\ 7.png"), url("./img/Ellipse\ 5.png"), url("./img/Rectangle\ 4.png"), url("./img/Ellipse\ 3.png"), url("./img/Ellipse\ 12.png"), url("./img/Ellipse\ 13.png"), url("./img/Ellipse\ 4.png"), url("./img/Rectangle\ 5.png");
-  background-position: 4% 29px, 9% 55px, 50% 55px, 50% 65px, 85% 5px, 90% 85px, 13% 85%, 12% 90%, 55% 87%, 50% 92%;
-  background-repeat: no-repeat;
-  border-bottom-left-radius: 5em;
-  background-color: #fff;
-}
+
 /* desktop version control */
 
 @media (min-width: 768px) {
+  .head {
+    padding: 10rem;
+    padding-right: 15rem;
+  }
 
   .menu-list {
     list-style: none;
@@ -809,26 +823,10 @@ body {
 
 /* Transition and Animation */
 
-nav ul li {
-  padding: 8px;
-  cursor: pointer;
-  transition-property: all;
-  transition-duration: 1s;
-  border-bottom: 1px solid #fff;
-}
-
 nav ul li:hover,
 nav ul li:focus {
   color: #396df2;
   border-bottom: 1px solid #396df2;
-}
-
-nav a{
-  transition: all 2s;
-}
-
-nav a {
-  rotate: 360deg;
 }
 
 nav .bar_head:hover {
@@ -850,18 +848,22 @@ nav .bar_head:hover {
     margin-left: 0%;
   }
 }
-.card__btn .btn, .about_me .btn {
+
+.card__btn .btn,
+.about_me .btn {
   transition-property: all;
   transition-duration: 0.25s;
   transition-delay: 0.25s;
 }
 
-.card__btn .btn:focus, .about_me .btn:focus {
+.card__btn .btn:focus,
+.about_me .btn:focus {
   background-color: #2230d2;
   color: white;
 }
 
-.card__btn .btn:hover, .about_me .btn:hover {
+.card__btn .btn:hover,
+.about_me .btn:hover {
   background-color: #7f8cff;
   color: white;
 }
@@ -873,12 +875,13 @@ nav .bar_head:hover {
 }
 
 @keyframes move-right {
-  from{
+  from {
     margin-left: -20%;
   }
 
-  to{
+  to {
     margin-left: 0%;
   }
 }
 
+/* end of T & A */
