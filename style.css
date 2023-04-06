@@ -749,15 +749,15 @@ body {
     line-height: 20px;
   }
   .head {
-      background-image: url("./img/Rectangle\ 6.png"), url("./img/Ellipse\ 11.png"), url("./img/Rectangle\ 7.png"), url("./img/Ellipse\ 5.png"), url("./img/Rectangle\ 4.png"), url("./img/Ellipse\ 3.png"), url("./img/Ellipse\ 12.png"), url("./img/Ellipse\ 13.png"), url("./img/Ellipse\ 4.png"), url("./img/Rectangle\ 5.png");
-      background-position: 4% 29px, 9% 55px, 50% 55px, 50% 65px, 85% 5px, 90% 85px, 13% 85%, 12% 90%, 55% 87%, 50% 92%;
-      background-repeat: no-repeat;
-      border-bottom-left-radius: 5em;
-      background-color: #fff;
+    background-image: url("./img/Rectangle\ 6.png"), url("./img/Ellipse\ 11.png"), url("./img/Rectangle\ 7.png"), url("./img/Ellipse\ 5.png"), url("./img/Rectangle\ 4.png"), url("./img/Ellipse\ 3.png"), url("./img/Ellipse\ 12.png"), url("./img/Ellipse\ 13.png"), url("./img/Ellipse\ 4.png"), url("./img/Rectangle\ 5.png");
+    background-position: 4% 29px, 9% 55px, 50% 55px, 50% 65px, 85% 5px, 90% 85px, 13% 85%, 12% 90%, 55% 87%, 50% 92%;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 5em;
+    background-color: #fff;
   }
 
   .form-btn-2 {
-      align-self: center;
+    align-self: center;
   }
 
   .contact-form-2 {
@@ -767,11 +767,14 @@ body {
     width: 38%;
   }
 
-  .contact-form-2 .p, .contact-form-2 .contact-me-2 {
+  .contact-form-2 .p, 
+  .contact-form-2 .contact-me-2 {
     width: 100%;
   }
 
-  .contact-form-2 .contact-me-2 .input-text, .contact-form-2 .contact-me-2 .input-email, .contact-form-2 .contact-me-2 .type-text {
+  .contact-form-2 .contact-me-2 .input-text, 
+  .contact-form-2 .contact-me-2 .input-email, 
+  .contact-form-2 .contact-me-2 .type-text {
     width: 80%;
     align-self: center;
     border-radius: 2px;
