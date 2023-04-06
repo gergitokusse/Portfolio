@@ -737,52 +737,52 @@ body {
 /* desktop version control */
 
 @media (min-width: 768px) {
-  .menu-list{
+  .menu-list {
     list-style: none;
     display: flex;
     column-gap: 40px;
-    color:#344563;
+    color: #344563;
     font-family: 'Poppina', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
   }
- 
- .head {
-    background-image: url("./img/Rectangle\ 6.png"), url("./img/Ellipse\ 11.png"), url("./img/Rectangle\ 7.png"), url("./img/Ellipse\ 5.png"), url("./img/Rectangle\ 4.png"), url("./img/Ellipse\ 3.png"), url("./img/Ellipse\ 12.png"), url("./img/Ellipse\ 13.png"), url("./img/Ellipse\ 4.png"), url("./img/Rectangle\ 5.png");
-    background-position: 4% 29px, 9% 55px, 50% 55px, 50% 65px, 85% 5px, 90% 85px, 13% 85%, 12% 90%, 55% 87%, 50% 92%;
-    background-repeat: no-repeat;
-    border-bottom-left-radius: 5em;
-    background-color: #fff;
- }
+  .head {
+      background-image: url("./img/Rectangle\ 6.png"), url("./img/Ellipse\ 11.png"), url("./img/Rectangle\ 7.png"), url("./img/Ellipse\ 5.png"), url("./img/Rectangle\ 4.png"), url("./img/Ellipse\ 3.png"), url("./img/Ellipse\ 12.png"), url("./img/Ellipse\ 13.png"), url("./img/Ellipse\ 4.png"), url("./img/Rectangle\ 5.png");
+      background-position: 4% 29px, 9% 55px, 50% 55px, 50% 65px, 85% 5px, 90% 85px, 13% 85%, 12% 90%, 55% 87%, 50% 92%;
+      background-repeat: no-repeat;
+      border-bottom-left-radius: 5em;
+      background-color: #fff;
+  }
 
- .form-btn-2 {
+  .form-btn-2 {
+      align-self: center;
+  }
+
+  .contact-form-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 38%;
+  }
+
+  .contact-form-2 .p, .contact-form-2 .contact-me-2 {
+    width: 100%;
+  }
+
+  .contact-form-2 .contact-me-2 .input-text, .contact-form-2 .contact-me-2 .input-email, .contact-form-2 .contact-me-2 .type-text {
+    width: 80%;
     align-self: center;
- }
-.contact-form-2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 38%;
-}
-
-.contact-form-2 .p, .contact-form-2 .contact-me-2 {
-  width: 100%;
-}
-
-.contact-form-2 .contact-me-2 .input-text, .contact-form-2 .contact-me-2 .input-email, .contact-form-2 .contact-me-2 .type-text{
-  width: 80%;
-  align-self: center;
-  border-radius: 2px;
-}
+    border-radius: 2px;
+  }
 
  .h1 {
-  margin-top: 100px;
+    margin-top: 100px;
  }
  
   .hamburguer-img {
-   display: none;
+    display: none;
   }
  }
  
