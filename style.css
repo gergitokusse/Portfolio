@@ -445,7 +445,7 @@ nav ul li {
 }
 
 /* Transition and Animation */
-nav a {
+nav a:hover {
   transition: all 2s;
   rotate: 360deg;
 }
@@ -824,13 +824,10 @@ nav a {
 
 nav ul li:hover,
 nav ul li:focus {
+  background-color: #efefef;
+  border-radius: 10px;
   color: #396df2;
   border-bottom: 1px solid #396df2;
-}
-
-nav .bar_head:hover {
-  font-size: 20px;
-  color: #b3bac5;
 }
 
 .section-one h1 {
