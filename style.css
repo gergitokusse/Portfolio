@@ -737,6 +737,7 @@ body {
 /* desktop version control */
 
 @media (min-width: 768px) {
+
   .menu-list {
     list-style: none;
     display: flex;
@@ -748,6 +749,7 @@ body {
     font-size: 15px;
     line-height: 20px;
   }
+
   .head {
     background-image: url("./img/Rectangle\ 6.png"), url("./img/Ellipse\ 11.png"), url("./img/Rectangle\ 7.png"), url("./img/Ellipse\ 5.png"), url("./img/Rectangle\ 4.png"), url("./img/Ellipse\ 3.png"), url("./img/Ellipse\ 12.png"), url("./img/Ellipse\ 13.png"), url("./img/Ellipse\ 4.png"), url("./img/Rectangle\ 5.png");
     background-position: 4% 29px, 9% 55px, 50% 55px, 50% 65px, 85% 5px, 90% 85px, 13% 85%, 12% 90%, 55% 87%, 50% 92%;
