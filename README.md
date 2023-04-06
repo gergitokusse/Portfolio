@@ -30,7 +30,7 @@ After you're finished please remove all the comments and instructions!
   <img src="img/index.jpg" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Gergito Portfoilo Collaboration with teamate</b></h3>
+  <h3><b>Gergito Portfoilo Desktop version</b></h3>
 
 </div>
 
@@ -84,6 +84,8 @@ After you're finished please remove all the comments and instructions!
 ### Key Features <a name="key-features"></a>
 
 - **[added html, css, ]**
+- **[added Contact form]**
+- **[added Desktop version]**
 - **[Github flow and linters]**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -162,19 +164,6 @@ comming soon
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-👤 **Ensaha Momo**
-
-- GitHub: [@githubhandle](https://github.com/ensahmomo)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-
-👤 **Brian Kamau**
-
-- GitHub: [@githubhandle](https://github.com/brainkamau)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -216,11 +205,6 @@ I would like to thank microverse code reviews, student success team and collabor
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
