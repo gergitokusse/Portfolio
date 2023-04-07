@@ -177,7 +177,7 @@ comming soon
 - [ ] [Add styling]
 
 ## Live demo
-<a herf = "https://gergitokusse.github.io/Portfolio-setup-and-mobile-first/" >click her...</a>
+<a href = "https://gergitokusse.github.io/Portfolio-setup-and-mobile-first/" >click her...</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
