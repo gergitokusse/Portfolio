@@ -177,6 +177,14 @@ body {
   transform: scale(0);
 }
 
+.header {
+  background-color: #f8fafc;
+  position: fixed;
+  z-index: 10000;
+  width: 100%;
+  opacity: 90%;
+}
+
 .navigation_bar {
   padding: 1rem 1.5rem;
   align-items: center;
@@ -212,6 +220,31 @@ body {
   position: relative;
   padding: 6rem 1.5rem;
   z-index: 10;
+  background-image:
+    url("./img/Rectangle\ 6.png"),
+    url("./img/Ellipse\ 11.png"),
+    url("./img/Rectangle\ 7.png"),
+    url("./img/Ellipse\ 5.png"),
+    url("./img/Rectangle\ 4.png"),
+    url("./img/Ellipse\ 3.png"),
+    url("./img/Ellipse\ 12.png"),
+    url("./img/Ellipse\ 13.png"),
+    url("./img/Ellipse\ 4.png"),
+    url("./img/Rectangle\ 5.png");
+  background-position:
+    4% 29px,
+    9% 55px,
+    50% 55px,
+    50% 65px,
+    85% 5px,
+    90% 85px,
+    13% 85%,
+    12% 90%,
+    55% 87%,
+    50% 92%;
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 5em;
+  background-color: #fff;
 }
 
 .head__title {
@@ -258,6 +291,13 @@ body {
 
 .card__img {
   width: 100%;
+  transition-duration: 0.5s;
+  transition-delay: 0.5s;
+  transition-property: all;
+}
+
+.card__img:hover {
+  scale: 110% 113%;
 }
 
 .card__subtitle {
@@ -342,6 +382,15 @@ body {
 
 .langs__top__img {
   transform: rotate(90deg);
+}
+
+nav ul li a {
+  padding: 8px 15px;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.5s;
+  text-decoration: none;
+  color: #121212;
 }
 
 .langs__bottom li {
@@ -430,6 +479,14 @@ body {
 .modal__btn {
   margin: 1rem 0;
 }
+
+/* Transition and Animation */
+nav a:hover {
+  transition: all 2s;
+  rotate: 720deg;
+}
+
+/* end of T and A */
 
 .modal__btn li a {
   border: 1px solid #6070ff;
@@ -572,11 +629,6 @@ body {
     border-bottom-left-radius: 8rem;
   }
 
-  .head {
-    padding: 10rem;
-    padding-right: 15rem;
-  }
-
   .head__title span {
     width: 15ch;
   }
@@ -649,8 +701,24 @@ body {
   background-color: #6070ff;
   border-top-left-radius: 180px 100px;
   margin-top: -20px;
-  background-image: url("./img/Ellipse\ 13\ \(2\).png"), url("./img/Ellipse\ 5\ \(2\).png"), url("./img/Rectangle\ 7\ \(2\).png"), url("./img/Ellipse\ 3\ \(4\).png"), url("./img/Rectangle\ 4\ \(4\).png"), url("./img/Ellipse\ 12\ \(2\).png"), url("./img/Rectangle\ 6\ \(3\).png"), url("./img/Ellipse\ 11\ \(3\).png");
-  background-position: 80% 80%, 3% 50%, 3% 48%, 93% 90px, 90% 60px, 35% 75px, 19% 95%, 20% 97%;
+  background-image:
+    url("./img/Ellipse\ 13\ \(2\).png"),
+    url("./img/Ellipse\ 5\ \(2\).png"),
+    url("./img/Rectangle\ 7\ \(2\).png"),
+    url("./img/Ellipse\ 3\ \(4\).png"),
+    url("./img/Rectangle\ 4\ \(4\).png"),
+    url("./img/Ellipse\ 12\ \(2\).png"),
+    url("./img/Rectangle\ 6\ \(3\).png"),
+    url("./img/Ellipse\ 11\ \(3\).png");
+  background-position:
+    80% 80%,
+    3% 50%,
+    3% 48%,
+    93% 90px,
+    90% 60px,
+    35% 75px,
+    19% 95%,
+    20% 97%;
 }
 
 .form-header-2 {
@@ -711,10 +779,19 @@ body {
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-delay: 0.5s;
+}
+
+.form-btn-2:focus {
+  background-color: rgb(61, 46, 197);
+  color: white;
+  cursor: pointer;
 }
 
 .form-btn-2:hover {
-  background-color: rgb(61, 46, 197);
+  background-color: #6070ff;
   color: white;
   cursor: pointer;
 }
@@ -737,24 +814,21 @@ body {
 /* desktop version control */
 
 @media (min-width: 768px) {
+  .head {
+    padding: 10rem;
+    padding-right: 15rem;
+  }
+
   .menu-list {
     list-style: none;
     display: flex;
     column-gap: 40px;
     color: #344563;
-    font-family: 'Poppina', sans-serif;
+    font-family: "Poppina", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-  }
-
-  .head {
-    background-image: url("./img/Rectangle\ 6.png"), url("./img/Ellipse\ 11.png"), url("./img/Rectangle\ 7.png"), url("./img/Ellipse\ 5.png"), url("./img/Rectangle\ 4.png"), url("./img/Ellipse\ 3.png"), url("./img/Ellipse\ 12.png"), url("./img/Ellipse\ 13.png"), url("./img/Ellipse\ 4.png"), url("./img/Rectangle\ 5.png");
-    background-position: 4% 29px, 9% 55px, 50% 55px, 50% 65px, 85% 5px, 90% 85px, 13% 85%, 12% 90%, 55% 87%, 50% 92%;
-    background-repeat: no-repeat;
-    border-bottom-left-radius: 5em;
-    background-color: #fff;
   }
 
   .form-btn-2 {
@@ -797,3 +871,64 @@ body {
     flex-grow: 1.5;
   }
 }
+
+/* Transition and Animation */
+
+nav ul li a:hover,
+nav ul li a:focus {
+  color: #efefef;
+  background-color: #396df2;
+  border-bottom: 1px solid #396df2;
+}
+
+.section-one h1 {
+  animation-duration: 0.75s;
+  animation-name: slidefromright;
+}
+
+@keyframes slidefromright {
+  from {
+    margin-left: 50%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
+
+.card__btn .btn,
+.about_me .btn {
+  transition-property: all;
+  transition-duration: 0.25s;
+  transition-delay: 0.25s;
+}
+
+.card__btn .btn:focus,
+.about_me .btn:focus {
+  background-color: #2230d2;
+  color: white;
+}
+
+.card__btn .btn:hover,
+.about_me .btn:hover {
+  background-color: #7f8cff;
+  color: white;
+}
+
+.p:hover {
+  animation-name: move-right;
+  animation-duration: 1.5s;
+  animation-delay: 1s;
+}
+
+@keyframes move-right {
+  from {
+    margin-left: -20%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
+
+/* end of T & A */
