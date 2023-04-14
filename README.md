@@ -186,6 +186,11 @@ comming soon
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
+<!-- CONTRIBUTING -->
+
+## 🤝 Project presentation <a name="contributing"></a>
+1. To get presentation in document [click here](https://docs.google.com/document/d/182c0XIIenSfAChnws_kXmGt4o1HCW4vnt7FEWjRUt_w/edit?usp=sharing).
+2. To get presentation in video [click here](https://www.loom.com/share/b8c98505adb5443db7e842baf8fbda21).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
