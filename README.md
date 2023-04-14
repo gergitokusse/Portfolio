@@ -176,6 +176,8 @@ comming soon
 - [ ] [Add footer]
 - [ ] [Add styling]
 
+## Live demo
+<a href = "https://gergitokusse.github.io/Portfolio-setup-and-mobile-first/" >click her...</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
