@@ -1,4 +1,3 @@
-
 const humbtn = document.querySelector('.hamburguer-img');
 const uli = document.querySelector('.menu-list');
 const clbtn = document.querySelector('.close-btn');
@@ -38,3 +37,59 @@ function closemenu() {
 }
 clbtn.addEventListener('click', closemenu);
 uli.addEventListener('click', closemenu);
+
+//  Pop up window feature
+const btn1 = document.querySelector('.btn-1');
+btn1.addEventListener('click', () => {
+  const pupmain = document.createElement('div');
+  pupmain.className = 'main-popup';
+  const container = document.createElement('div');
+  container.className = 'pop-up-container';
+  container.innerHTML = `
+  <div class = "popup-header"
+    <h1 class = "h1">Tonic</h1>
+    <p class = "close">x</p>
+  </div>
+  <div class = "popup-lists">
+    <p>CANOPY</p>
+    <img src = "./img/counter.png" width = 10 height = 10>
+    <p>Back End Dev</p>
+    <img src = "./img/counter.png" width = 10 height = 10>
+    <p>2015</p>
+  </div>
+  <img src = "./img/tonic-project.png">
+  <div class = "project-describtion">
+    <div class = "description-p">
+      <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
+      printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the 
+      printing and typesetting industry. </p><br>
+
+      <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
+      took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing 
+      and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the 
+      releawn printer took a galley of type and scrambled it 1960s. </p>
+    </div>
+    <div class = "description-technology">
+      <div class = "spans">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>Javascript</span>
+        <span>Ruby</span>
+        <span>Bootstrap</span>
+      </div>
+      <div class = "buttons">
+        <button>See Live</button>
+        <button>See Source</button>
+      </div>
+    </div>
+  </div>
+  `;
+  pupmain.appendChild(container);
+  body.appendChild(pupmain);
+
+  const close = document.querySelector('.close');
+  close.addEventListener('click', () => {
+    body.removeChild(pupmain);
+  });
+});
