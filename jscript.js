@@ -1,3 +1,4 @@
+
 const humbtn = document.querySelector('.hamburguer-img');
 const uli = document.querySelector('.menu-list');
 const clbtn = document.querySelector('.close-btn');
@@ -6,7 +7,11 @@ const logo = document.querySelector('.navigation_bar__link');
 const lia = document.querySelector('li .li-a');
 const lia2 = document.querySelector('li .li-a2');
 const lia3 = document.querySelector('li .li-a3');
+const body = document.querySelector('body');
+const main = document.querySelector('.section-one');
 function displaymenu() {
+  body.className = 'hidde-over-flow';
+  main.className = 'add-blur-effect head flex section-one background-white';
   nav.classList.replace('navigation_bar', 'nav-menu');
   logo.classList.replace('navigation_bar__link', 'non-visible');
   uli.classList.replace('non-visible', 'visible');
@@ -28,6 +33,8 @@ function closemenu() {
   lia3.classList.replace('li-a-menu', 'li-a3');
   clbtn.classList.replace('visible', 'non-visible');
   humbtn.classList.remove('non-visible');
+  body.className = 'non';
+  main.className = 'head flex section-one background-white';
 }
 clbtn.addEventListener('click', closemenu);
 uli.addEventListener('click', closemenu);

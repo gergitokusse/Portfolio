@@ -215,26 +215,31 @@ body {
 }
 
 .nav-menu {
-  padding: 5px;
   display: flex;
   flex-direction: column;
   justify-content: start;
-  background-color: #0d1edf;
+  background-color: #0113d6;
   color: white;
   height: 812px;
-  opacity: 85%;
+  padding: 5px;
+  opacity: 65%;
   transition: all;
   transition-duration: 0.75s;
+  backface-visibility: hidden;
+}
+
+.hidde-over-flow {
+  overflow-y: hidden;
 }
 
 .add-blur-effect {
-  filter: blur(4px);
+  filter: blur(5px);
 }
 
 .ul-menu {
   display: flex;
   flex-direction: column;
-  row-gap: 15px;
+  row-gap: 45px;
   list-style: none;
 }
 
@@ -301,6 +306,7 @@ body {
 }
 
 .head__title {
+  margin-top: 150px;
   color: #172b4d;
   width: 10ch;
 }
