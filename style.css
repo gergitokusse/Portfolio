@@ -227,6 +227,10 @@ body {
   transition-duration: 0.75s;
 }
 
+.add-blur-effect {
+  filter: blur(4px);
+}
+
 .ul-menu {
   display: flex;
   flex-direction: column;
@@ -245,7 +249,6 @@ body {
 }
 
 .close-btn {
-  background: #000;
   display: flex;
   justify-content: end;
   padding: 15px 35px;
