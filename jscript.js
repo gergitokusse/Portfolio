@@ -11,9 +11,7 @@ function displaymenu() {
   logo.classList.replace('navigation_bar__link', 'non-visible');
   uli.classList.replace('non-visible', 'visible');
   uli.classList.replace('menu-list', 'ul-menu');
-  lia.classList.replace('li-a', 'li-a-menu');
-  lia2.classList.replace('li-a2', 'li-a-menu');
-  lia3.classList.replace('li-a3', 'li-a-menu');
+
   clbtn.classList.replace('non-visible', 'visible');
   humbtn.classList.add('non-visible');
 }
@@ -24,10 +22,7 @@ function closemenu() {
   uli.classList.replace('visible', 'non-visible');
   uli.classList.replace('ul-menu', 'menu-list');
   lia.classList.replace('li-a-menu', 'li-a');
-  lia2.classList.replace('li-a-menu', 'li-a2');
-  lia3.classList.replace('li-a-menu', 'li-a3');
-  clbtn.classList.replace('visible', 'non-visible');
-  humbtn.classList.remove('non-visible');
+  
 }
 clbtn.addEventListener('click', closemenu);
 uli.addEventListener('click', closemenu);
