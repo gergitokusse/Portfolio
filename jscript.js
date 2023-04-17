@@ -11,7 +11,10 @@ function displaymenu() {
   logo.classList.replace('navigation_bar__link', 'non-visible');
   uli.classList.replace('non-visible', 'visible');
   uli.classList.replace('menu-list', 'ul-menu');
-
+  //first one
+  lia.classList.replace('li-a', 'li-a-menu');
+  lia2.classList.replace('li-a2', 'li-a-menu');
+  lia3.classList.replace('li-a3', 'li-a-menu');
   clbtn.classList.replace('non-visible', 'visible');
   humbtn.classList.add('non-visible');
 }
@@ -26,3 +29,5 @@ function closemenu() {
 }
 clbtn.addEventListener('click', closemenu);
 uli.addEventListener('click', closemenu);
+
+
