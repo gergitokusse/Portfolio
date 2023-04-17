@@ -57,7 +57,7 @@ btn1.addEventListener('click', () => {
     <img src = "./img/counter.png" width = 10 height = 10>
     <p>2015</p>
   </div>
-  <img src = "./img/tonic-project.png">
+  <img class = "my-image" src = "./img/Portfolio.png">
   <div class = "project-describtion">
     <div class = "description-p">
       <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
@@ -72,11 +72,11 @@ btn1.addEventListener('click', () => {
     </div>
     <div class = "description-technology">
       <div class = "spans">
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>Javascript</span>
-        <span>Ruby</span>
-        <span>Bootstrap</span>
+        <p>HTML</p>
+        <p>CSS</p>
+        <p>Javascript</p>
+        <p>Ruby</p>
+        <p>Bootstrap</p>
       </div>
       <div class = "buttons">
         <button>See Live</button>
