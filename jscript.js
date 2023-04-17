@@ -23,6 +23,10 @@ function closemenu() {
   nav.classList.replace('nav-menu', 'navigation_bar');
   logo.classList.replace('non-visible', 'navigation_bar__link');
   uli.classList.replace('visible', 'non-visible');
+  lia2.classList.replace('li-a-menu', 'li-a2');
+  lia3.classList.replace('li-a-menu', 'li-a3');
+  clbtn.classList.replace('visible', 'non-visible');
+  humbtn.classList.remove('non-visible');
   uli.classList.replace('ul-menu', 'menu-list');
   lia.classList.replace('li-a-menu', 'li-a');
   
