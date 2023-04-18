@@ -486,7 +486,7 @@
           that you need built or a project that needs coding. I'd love to help
           with it!
         </p>
-        <form class="contact-me-2" action="https://formspree.io/f/xzbqjqvo" method="POST" id="my-form">
+        <form novalidate class="contact-me-2" action="https://formspree.io/f/xzbqjqvo" method="POST" id="my-form">
           <input
             type="text"
             name="name"
@@ -498,8 +498,11 @@
           <input
             class="input-email"
             type="email"
-            name="user_email"
+            name="mail"
             placeholder="Write your email"
+            id="mail"
+            minlength="8"
+            pattern="[A-Z]+"
             required
           />
           <textarea
@@ -511,6 +514,7 @@
             maxlength="500"
             required
           ></textarea>
+          <span class="error" id="error"></span>
           <button class="form-btn-2" type="submit">Get in touch</button>
         </form>
       </div>

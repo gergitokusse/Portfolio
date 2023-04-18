@@ -654,7 +654,8 @@ nav ul li a {
 
 .error {
   text-align: center;
-  color: red;
+  color: #da0a0a;
+  padding: 5px;
 }
 
 .modal {
@@ -1186,3 +1187,6 @@ nav ul li a:focus {
 }
 
 /* end of T & A */
+/* form validation feature */
+
+/* end of form validation */

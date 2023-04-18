@@ -314,3 +314,38 @@ clickbtn.forEach((button) => {
     });
   });
 });
+
+// form validation feature
+const form = document.querySelector('form');
+const email = document.getElementById('mail');
+const emailError = document.querySelector('#error');
+
+function showError() {
+  if (email.validity.valueMissing) {
+    emailError.innerHTML = 'You need to enter an email address !!!.';
+  } else if (email.validity.typeMismatch) {
+    emailError.innerHTML = 'Entered value needs to be an email address !!!.';
+  } else if (email.validity.tooShort) {
+    emailError.innerHTML = `Email should be at least ${email.minLength} characters; you entered ${email.value.length}.`;
+  } else if (email.value.match('[A-Z]+')) {
+    emailError.innerHTML = 'It is not valide email, all letter should be in lower case !!!.';
+  }
+  emailError.className = 'error';
+}
+email.addEventListener('input', () => {
+  if (email.validity.valid) {
+    emailError.textContent = ''; // Reset the content of the message
+    emailError.className = 'error'; // Reset the visual state of the message
+  } else {
+    showError();
+  }
+});
+
+form.addEventListener('submit', (event) => {
+  if (!email.validity.valid) {
+    showError();
+    event.preventDefault();
+  }
+});
+
+// end of form validation
