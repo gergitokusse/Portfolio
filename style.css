@@ -294,6 +294,7 @@ body {
   }
 
   .popup-header {
+    background-color: #000;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -435,19 +436,11 @@ body {
 
 @media (min-width: 768px){
   .project-describtion{
-    display: flex;
-    flex-direction: row;
-    column-gap: 10px;
-    padding: 10px;
   }
 
   .description-p {
     width: 75%;
     font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
   }
 
 }
