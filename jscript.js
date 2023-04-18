@@ -41,182 +41,156 @@ uli.addEventListener('click', closemenu);
 // dynamic content
 const projects = [
   {
-    projectName: `
-    <h1>Tonic</h1>
-    <p class = "close">x</p>`,
-    listoficon: `    
-    <p>CANOPY</p>
-    <img src = "./img/counter.png" width = 10 height = 10>
-    <p>Back End Dev</p>
-    <img src = "./img/counter.png" width = 10 height = 10>
-    <p>2015</p>`,
-    projectDescription: `
-    
-    <div class = "description-p">
-      <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
-      printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the 
-      printing and typesetting industry. </p><br>
-
-      <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
-      took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing 
-      and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the 
-      releawn printer took a galley of type and scrambled it 1960s. </p>
-    </div>
-    <div class = "description-technology">
-      <div class = "spans">
-        <p>HTML</p>
-        <p>CSS</p>
-        <p>Javascript</p>
-        <p>Ruby</p>
-        <p>Bootstrap</p>
-      </div>
-      <div class = "buttons">
-        <button>See Live</button>
-        <button>See Source</button>
-      </div>
-    </div>
-    `,
-    projectImage: '<img class = "my-image" src = "./img/Portfolio.png">',
-    projectLinktolive: '<a herf = "index.html">Link to Live</a>',
-    projectlinktosource: '<a herf = "index.html">Link to Live</a>',
-    projectnav: `
-    <button  disabled>Privouse project</button>
-    <button>Next project</button>
-    `,
+    projectName: 'Tonic',
+    listoficon: {
+      l1: 'CANOPY',
+      l2: './img/counter.png',
+      l3: 'Back End Dev',
+      l4: './img/counter.png',
+      l5: '2015',
+    },
+    projectDescription: {
+      description1: {
+        p1: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        p2: 'Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
+      },
+      description2: {
+        spans: {
+          s1: 'HTML',
+          s2: 'CSS',
+          s3: 'Javascript',
+          s4: 'Ruby',
+          s5: 'Bootstrap',
+        },
+        buttons: {
+          btn1: 'See Live',
+          btn2: 'See Source',
+        },
+      },
+    },
+    projectImage: './img/Portfolio.png',
+    projectLinktolive: 'https://gergitokusse.github.io/Portfolio-setup-and-mobile-first/',
+    projectlinktosource: 'https://github.com/gergitokusse/Portfolio-setup-and-mobile-first',
+    pronav: {
+      buttons: {
+        btn1: 'Privouse Project',
+        btn2: 'Next Project',
+      },
+    },
   },
   {
-    projectName: `Multi-Post Stories</h1>
-    <p class = "close">x</p>`,
-    listoficon: `    
-    <p>CANOPY</p>
-    <img src = "./img/counter.png" width = 10 height = 10>
-    <p>Back End Dev</p>
-    <img src = "./img/counter.png" width = 10 height = 10>
-    <p>2015</p>`,
-    projectDescription: `
-    
-    <div class = "description-p">
-      <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
-      printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the 
-      printing and typesetting industry. </p><br>
-
-      <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
-      took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing 
-      and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the 
-      releawn printer took a galley of type and scrambled it 1960s. </p>
-    </div>
-    <div class = "description-technology">
-      <div class = "spans">
-        <p>HTML</p>
-        <p>CSS</p>
-        <p>Javascript</p>
-        <p>Ruby</p>
-        <p>Bootstrap</p>
-      </div>
-      <div class = "buttons">
-        <button>See Live</button>
-        <button>See Source</button>
-      </div>
-    </div>
-    `,
-    projectImage: '<img class = "my-image" src = "./img/multi-post-stories.png">',
-    projectLinktolive: '<a herf = "index.html">Link to Live</a>',
-    projectlinktosource: '<a herf = "index.html">Link to Live</a>',
-    projectnav: `
-    <button>Privouse project</button>
-    <button>Next project</button>
-    `,
+    projectName: 'Multi-Post Stories',
+    listoficon: {
+      l1: 'CANOPY',
+      l2: './img/counter.png',
+      l3: 'Back End Dev',
+      l4: './img/counter.png',
+      l5: '2015',
+    },
+    projectDescription: {
+      description1: {
+        p1: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        p2: 'Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
+      },
+      description2: {
+        spans: {
+          s1: 'HTML',
+          s2: 'CSS',
+          s3: 'Javascript',
+          s4: 'Ruby',
+          s5: 'Bootstrap',
+        },
+        buttons: {
+          btn1: 'See Live',
+          btn2: 'See Source',
+        },
+      },
+    },
+    projectImage: './img/multi-post-stories.png',
+    projectLinktolive: 'https://gergitokusse.github.io/Portfolio-setup-and-mobile-first/',
+    projectlinktosource: 'https://github.com/gergitokusse/Portfolio-setup-and-mobile-first',
+    pronav: {
+      buttons: {
+        btn1: 'Privouse Project',
+        btn2: 'Next Project',
+      },
+    },
   },
   {
-    projectName: `
-    <h1>Tonic</h1>
-    <p class = "close">x</p>`,
-    listoficon: `    
-    <p>CANOPY</p>
-    <img src = "./img/counter.png" width = 10 height = 10>
-    <p>Back End Dev</p>
-    <img src = "./img/counter.png" width = 10 height = 10>
-    <p>2015</p>`,
-    projectDescription: `
-    <div class = "description-p">
-      <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
-      printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the 
-      printing and typesetting industry. </p><br>
-
-      <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
-      took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing 
-      and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the 
-      releawn printer took a galley of type and scrambled it 1960s. </p>
-    </div>
-    <div class = "description-technology">
-      <div class = "spans">
-        <p>HTML</p>
-        <p>CSS</p>
-        <p>Javascript</p>
-        <p>Ruby</p>
-        <p>Bootstrap</p>
-      </div>
-      <div class = "buttons">
-        <button>See Live</button>
-        <button>See Source</button>
-      </div>
-    </div>
-    `,
-    projectImage: '<img class = "my-image" src = "./img/tonic-orange.png">',
-    projectLinktolive: '<a herf = "index.html">Link to Live</a>',
-    projectlinktosource: '<a herf = "index.html">Link to Live</a>',
-    projectnav: `
-    <button  disabled>Privouse project</button>
-    <button>Next project</button>
-    `,
+    projectName: 'Tonic',
+    listoficon: {
+      l1: 'CANOPY',
+      l2: './img/counter.png',
+      l3: 'Back End Dev',
+      l4: './img/counter.png',
+      l5: '2015',
+    },
+    projectDescription: {
+      description1: {
+        p1: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        p2: 'Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
+      },
+      description2: {
+        spans: {
+          s1: 'HTML',
+          s2: 'CSS',
+          s3: 'Javascript',
+          s4: 'Ruby',
+          s5: 'Bootstrap',
+        },
+        buttons: {
+          btn1: 'See Live',
+          btn2: 'See Source',
+        },
+      },
+    },
+    projectImage: './img/tonic-orange.png',
+    projectLinktolive: 'https://gergitokusse.github.io/Portfolio-setup-and-mobile-first/',
+    projectlinktosource: 'https://github.com/gergitokusse/Portfolio-setup-and-mobile-first',
+    pronav: {
+      buttons: {
+        btn1: 'Privouse Project',
+        btn2: 'Next Project',
+      },
+    },
   },
   {
-    projectName: `
-    <h1>Multi-Post Stories</h1>
-    <p class = "close">x</p>`,
-    listoficon: `    
-    <p>CANOPY</p>
-    <img src = "./img/counter.png" width = 10 height = 10>
-    <p>Back End Dev</p>
-    <img src = "./img/counter.png" width = 10 height = 10>
-    <p>2015</p>`,
-    projectDescription: `
-    
-    <div class = "description-p">
-      <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
-      printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the 
-      printing and typesetting industry. </p><br>
-
-      <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer 
-      took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing 
-      and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the 
-      releawn printer took a galley of type and scrambled it 1960s. </p>
-    </div>
-    <div class = "description-technology">
-      <div class = "spans">
-        <p>HTML</p>
-        <p>CSS</p>
-        <p>Javascript</p>
-        <p>Ruby</p>
-        <p>Bootstrap</p>
-      </div>
-      <div class = "buttons">
-        <button>See Live</button>
-        <button>See Source</button>
-      </div>
-    </div>
-    `,
-    projectImage: '<img class = "my-image" src = "./img/prof-art-project.png">',
-    projectLinktolive: '<a herf = "index.html">Link to Live</a>',
-    projectlinktosource: '<a herf = "index.html">Link to Live</a>',
-    projectnav: `
-    <button  disabled>Privouse project</button>
-    <button>Next project</button>
-    `,
+    projectName: 'Multi-Post Stories',
+    listoficon: {
+      l1: 'CANOPY',
+      l2: './img/counter.png',
+      l3: 'Back End Dev',
+      l4: './img/counter.png',
+      l5: '2015',
+    },
+    projectDescription: {
+      description1: {
+        p1: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+        p2: 'Lorem Ipsum has been the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s.',
+      },
+      description2: {
+        spans: {
+          s1: 'HTML',
+          s2: 'CSS',
+          s3: 'Javascript',
+          s4: 'Ruby',
+          s5: 'Bootstrap',
+        },
+        buttons: {
+          btn1: 'See Live',
+          btn2: 'See Source',
+        },
+      },
+    },
+    projectImage: './img/prof-art-project.png',
+    projectLinktolive: 'https://gergitokusse.github.io/Portfolio-setup-and-mobile-first/',
+    projectlinktosource: 'https://github.com/gergitokusse/Portfolio-setup-and-mobile-first',
+    pronav: {
+      buttons: {
+        btn1: 'Privouse Project',
+        btn2: 'Next Project',
+      },
+    },
   },
 ];
 
@@ -225,31 +199,112 @@ clickbtn.forEach((button) => {
   button.addEventListener('click', () => {
     const pupmain = document.createElement('div');
     pupmain.className = 'main-popup';
+
     const container = document.createElement('div');
     container.className = 'pop-up-container';
+
     const divhead = document.createElement('div');
     divhead.className = 'popup-header';
-    divhead.innerHTML = projects[button.id].projectName;
+
+    const headercontent = document.createElement('h1');
+    headercontent.innerHTML = projects[button.id].projectName;
+
+    const closebtn = document.createElement('p');
+    closebtn.className = 'close';
+    closebtn.innerHTML = 'X';
+
+    divhead.appendChild(headercontent);
+    divhead.appendChild(closebtn);
+    container.appendChild(divhead);
 
     const prolist = document.createElement('div');
     prolist.className = 'popup-lists';
-    prolist.innerHTML = projects[button.id].listoficon;
 
-    const projectimg = document.createElement('div');
-    projectimg.className = 'my-image';
-    projectimg.innerHTML = projects[button.id].projectImage;
+    const prolistp1 = document.createElement('p');
+    prolistp1.textContent = projects[button.id].listoficon.l1;
+    const prolistp2 = document.createElement('img');
+    prolistp2.src = projects[button.id].listoficon.l2;
+    const prolistp3 = document.createElement('p');
+    prolistp3.textContent = projects[button.id].listoficon.l3;
+    const prolistp4 = document.createElement('img');
+    prolistp4.src = projects[button.id].listoficon.l4;
+    const prolistp5 = document.createElement('p');
+    prolistp5.textContent = projects[button.id].listoficon.l5;
+
+    prolist.appendChild(prolistp1);
+    prolist.appendChild(prolistp2);
+    prolist.appendChild(prolistp3);
+    prolist.appendChild(prolistp4);
+    prolist.appendChild(prolistp5);
+    container.appendChild(prolist);
+
+    const proimg = document.createElement('img');
+    proimg.className = 'my-image';
+    proimg.src = projects[button.id].projectImage;
+    container.appendChild(proimg);
 
     const prodec = document.createElement('div');
     prodec.className = 'project-describtion';
-    prodec.innerHTML = projects[button.id].projectDescription;
+    const desc1 = document.createElement('div');
+    desc1.className = 'description-p';
+    prodec.appendChild(desc1);
+
+    const desc1p1 = document.createElement('p');
+    desc1p1.innerHTML = projects[button.id].projectDescription.description1.p1;
+    const desc1p2 = document.createElement('p');
+    desc1p2.innerHTML = projects[button.id].projectDescription.description1.p2;
+    desc1.appendChild(desc1p1);
+    desc1.appendChild(desc1p2);
+
+    const desc2 = document.createElement('div');
+    desc2.className = 'description-technology';
+    prodec.appendChild(desc2);
+    const desct1 = document.createElement('div');
+    desct1.className = 'spans';
+    desc2.appendChild(desct1);
+
+    const desct1p1 = document.createElement('p');
+    desct1p1.innerHTML = projects[button.id].projectDescription.description2.spans.s1;
+    const desct1p2 = document.createElement('p');
+    desct1p2.innerHTML = projects[button.id].projectDescription.description2.spans.s2;
+    const desct1p3 = document.createElement('p');
+    desct1p3.innerHTML = projects[button.id].projectDescription.description2.spans.s3;
+    const desct1p4 = document.createElement('p');
+    desct1p4.innerHTML = projects[button.id].projectDescription.description2.spans.s4;
+    const desct1p5 = document.createElement('p');
+    desct1p5.innerHTML = projects[button.id].projectDescription.description2.spans.s5;
+    desct1.appendChild(desct1p1);
+    desct1.appendChild(desct1p2);
+    desct1.appendChild(desct1p3);
+    desct1.appendChild(desct1p4);
+    desct1.appendChild(desct1p5);
+
+    const desct2 = document.createElement('div');
+    desct2.className = 'buttons';
+    desc2.appendChild(desct2);
+
+    const a1 = document.createElement('a');
+    a1.innerHTML = projects[button.id].projectDescription.description2.buttons.btn1;
+    a1.href = projects[button.id].projectLinktolive;
+    desct2.appendChild(a1);
+    const a2 = document.createElement('a');
+    a2.innerHTML = projects[button.id].projectDescription.description2.buttons.btn2;
+    a2.href = projects[button.id].projectlinktosource;
+
+    desct2.appendChild(a1);
+    desct2.appendChild(a2);
+    container.appendChild(prodec);
 
     const pronav = document.createElement('div');
     pronav.className = 'project-navigation';
-    pronav.innerHTML = projects[button.id].projectnav;
-    container.appendChild(divhead);
-    container.appendChild(prolist);
-    container.appendChild(projectimg);
-    container.appendChild(prodec);
+    const pronavbt1 = document.createElement('button');
+    pronavbt1.innerHTML = projects[button.id].pronav.buttons.btn1;
+    const pronavbt2 = document.createElement('button');
+    pronavbt2.innerHTML = projects[button.id].pronav.buttons.btn2;
+    pronav.appendChild(pronavbt1);
+    pronav.appendChild(pronavbt2);
+
+    // container.appendChild(pronav);
     pupmain.appendChild(container);
     body.appendChild(pupmain);
 

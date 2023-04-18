@@ -264,7 +264,6 @@ body {
 
 /*  Pop up window feature  */
 
-/* desktop version */
 .main-popup {
   width: 100vw;
   height: 100vh;
@@ -295,7 +294,6 @@ body {
 }
 
 .popup-header {
-  background-color: #000;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -399,26 +397,6 @@ body {
   display: flex;
   flex-direction: row;
   padding: 10px;
-}
-
-.buttons button {
-  padding: 10px;
-  background-color: white;
-  border: 1px solid  #0113d6;
-  color: #396df2;
-  margin: 10px;
-  border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-}
-
-.buttons button:hover {
-  cursor: pointer;
-  background-color: #0113d6;
-  color: #fff;
 }
 
 .project-navigation {
@@ -730,6 +708,25 @@ nav ul li a {
 .modal__btn {
   margin: 1rem 0;
 }
+
+/* pop up featuer */
+
+.buttons a {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid  #0113d6;
+  color: #396df2;
+  text-decoration: none;
+  margin: 10px;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+/* end of pop up feature */
 
 /* Transition and Animation */
 nav a:hover {
@@ -1127,6 +1124,16 @@ nav ul li a:focus {
   background-color: #396df2;
   border-bottom: 1px solid #396df2;
 }
+
+/* pop-up window feature */
+
+.buttons a:hover {
+  cursor: pointer;
+  background-color: #0113d6;
+  color: #fff;
+}
+
+/* end of pop up */
 
 .section-one h1 {
   animation-duration: 0.75s;
