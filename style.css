@@ -436,6 +436,14 @@ body {
 
 @media (min-width: 768px){
   .project-describtion{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    padding: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
   }
 
   .description-p {
