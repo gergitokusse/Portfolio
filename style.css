@@ -179,8 +179,8 @@ body {
 
 .header {
   background-color: #f8fafc;
+  z-index: 150;
   position: fixed;
-  z-index: 10000;
   width: 100%;
   opacity: 90%;
 }
@@ -261,6 +261,176 @@ body {
 }
 
 /* ende of Mobile menu */
+
+/*  Pop up window feature  */
+
+.main-popup {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  opacity: 95%;
+  top: 0;
+  background-color: rgb(0, 0, 0, 45%);
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  transition: all;
+  transition-duration: 1s;
+  transition-delay: 0.75s;
+  overflow-y: scroll;
+}
+
+.pop-up-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: center;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.popup-header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  line-height: 52px;
+  color: #091e42;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.popup-header .close {
+  font-size: 20px;
+  color: #b7babe;
+  cursor: pointer;
+}
+
+.popup-lists {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  color: #344563;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.popup-lists img {
+  margin-top: 4px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.my-image {
+  width: 100%;
+  max-height: 500px;
+}
+
+.project-describtion {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding: 10px;
+}
+
+.description-p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.description-technology {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.spans {
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 10px;
+}
+
+.spans p {
+  background-color: #eceef8;
+  color: #6070ff;
+  border-radius: 7px;
+  padding: 5px 10px;
+  margin-top: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+
+.project-navigation button {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid  #111113;
+  color: rgb(24, 22, 22);
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.project-navigation {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.project-navigation button:hover {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .project-describtion {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    padding: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .description-p {
+    width: 75%;
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+/* end of pop up window feature */
 
 .head::before {
   border-bottom-left-radius: 5rem;
@@ -538,6 +708,25 @@ nav ul li a {
 .modal__btn {
   margin: 1rem 0;
 }
+
+/* pop up featuer */
+
+.buttons a {
+  padding: 10px;
+  background-color: white;
+  border: 1px solid  #0113d6;
+  color: #396df2;
+  text-decoration: none;
+  margin: 10px;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+/* end of pop up feature */
 
 /* Transition and Animation */
 nav a:hover {
@@ -935,6 +1124,16 @@ nav ul li a:focus {
   background-color: #396df2;
   border-bottom: 1px solid #396df2;
 }
+
+/* pop-up window feature */
+
+.buttons a:hover {
+  cursor: pointer;
+  background-color: #0113d6;
+  color: #fff;
+}
+
+/* end of pop up */
 
 .section-one h1 {
   animation-duration: 0.75s;
