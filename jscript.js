@@ -246,7 +246,9 @@ clickbtn.forEach((button) => {
     const pronav = document.createElement('div');
     pronav.className = 'project-navigation';
     pronav.innerHTML = projects[button.id].projectnav;
-
+    container.appendChild(divhead);
+    container.appendChild(prolist);
+    container.appendChild(projectimg);
     container.appendChild(prodec);
     pupmain.appendChild(container);
     body.appendChild(pupmain);
