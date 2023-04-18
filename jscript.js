@@ -93,3 +93,32 @@ btn1.addEventListener('click', () => {
     body.removeChild(pupmain);
   });
 });
+
+// dynamic content
+const projects = [
+  {
+    projectName: 'Tonic',
+    projectDescription: 'This is project description',
+    projectImage: '<img src = "./img/tonic-project-desktop.png">',
+    projectTechnology: 'list of technology',
+    projectLinktolive: '<a herf = "index.html">Link to Live</a>',
+    projectlinktosource: '<a herf = "index.html">Link to Live</a>',
+  },
+  {
+    projectName: 'Multi-Post Stories',
+    projectDescription: 'This is project description 2',
+    projectImage: '<img src = "./img/tonic-project.png">',
+    projectTechnology: 'list of technology of project 2',
+    projectLinktolive: '<a herf = "index.html">Link to Live</a>',
+    projectlinktosource: '<a herf = "index.html">Link to Live</a>',
+  },
+];
+
+const clickbtn = document.querySelectorAll('.card__btn .first-btn');
+clickbtn.forEach((button) => {
+  button.addEventListener('click', () => {
+    if (button.id === 0) {
+      alert(button.id);
+    }
+  });
+});
