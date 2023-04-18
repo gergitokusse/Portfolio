@@ -658,6 +658,12 @@ nav ul li a {
   padding: 5px;
 }
 
+.success {
+  text-align: center;
+  color: rgb(6, 145, 6);
+  padding: 5px;
+}
+
 .modal {
   background: #fff;
   padding: 1.5rem;
@@ -1187,6 +1193,7 @@ nav ul li a:focus {
 }
 
 /* end of T & A */
+
 /* form validation feature */
 
 /* end of form validation */

@@ -323,14 +323,20 @@ const emailError = document.querySelector('#error');
 function showError() {
   if (email.validity.valueMissing) {
     emailError.innerHTML = 'You need to enter an email address !!!.';
+    emailError.className = 'error';
   } else if (email.validity.typeMismatch) {
     emailError.innerHTML = 'Entered value needs to be an email address !!!.';
+    emailError.className = 'error';
   } else if (email.validity.tooShort) {
     emailError.innerHTML = `Email should be at least ${email.minLength} characters; you entered ${email.value.length}.`;
+    emailError.className = 'error';
   } else if (email.value.match('[A-Z]+')) {
     emailError.innerHTML = 'It is not valide email, all letter should be in lower case !!!.';
+    emailError.className = 'error';
+  } else {
+    emailError.innerHTML = 'Success !!!';
+    emailError.className = 'success';
   }
-  emailError.className = 'error';
 }
 email.addEventListener('input', () => {
   if (email.validity.valid) {
