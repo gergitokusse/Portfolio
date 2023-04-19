@@ -323,7 +323,6 @@ const messageval = document.getElementById('message');
 const emailError = document.querySelector('.erroremail');
 const nameerror = document.querySelector('.errorname');
 const messageerror = document.querySelector('.errormessage');
-
 function showError() {
   // name validation
   if (nameval.validity.valueMissing) {
@@ -389,6 +388,10 @@ form.addEventListener('submit', (event) => {
     showError();
     event.preventDefault();
   }
+  // local storage
+  const mylocaldata = { Name: nameval.value, Email: email.value, Message: messageval.value };
+  const sdata = JSON.stringify(mylocaldata);
+  localStorage.setItem('myLocalStorage', sdata);
 });
 
 // end of form validation
