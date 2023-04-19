@@ -324,10 +324,6 @@ const emailError = document.querySelector('.erroremail');
 const nameerror = document.querySelector('.errorname');
 const messageerror = document.querySelector('.errormessage');
 // parsing data from local storage
-const storage = JSON.parse(localStorage.getItem('myLocalStorage'));
-nameval.value = storage.Name;
-email.value = storage.Email;
-messageval.value = storage.Message;
 function showError() {
   // name validation
   if (nameval.validity.valueMissing) {
