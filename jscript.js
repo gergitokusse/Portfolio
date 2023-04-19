@@ -323,6 +323,8 @@ const messageval = document.getElementById('message');
 const emailError = document.querySelector('.erroremail');
 const nameerror = document.querySelector('.errorname');
 const messageerror = document.querySelector('.errormessage');
+// parsing data fro local storage
+console.log(localStorage);
 function showError() {
   // name validation
   if (nameval.validity.valueMissing) {
