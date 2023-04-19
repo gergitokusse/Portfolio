@@ -329,7 +329,6 @@ function showError() {
     emailError.className = 'error';
   } else if (email.validity.tooShort) {
     emailError.innerHTML = `Email should be at least ${email.minLength} characters; you entered ${email.value.length}.`;
-    emailError.className = 'error';
   } else if (email.value.match('[A-Z]+')) {
     emailError.innerHTML = 'It is not valide email, all letter should be in lower case !!!.';
     emailError.className = 'error';
