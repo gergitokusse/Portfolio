@@ -334,7 +334,6 @@ function showError() {
     nameerror.className = 'error';
   } else {
     nameerror.innerHTML = '';
-    nameerror.className = 'success';
   }
   // email validation
   if (email.validity.valueMissing) {
@@ -348,7 +347,6 @@ function showError() {
     emailError.className = 'error';
   } else {
     emailError.innerHTML = '';
-    emailError.className = 'success';
   }
   // validate message
   if (messageval.validity.valueMissing) {
@@ -376,7 +374,7 @@ email.addEventListener('input', () => {
     showError();
   }
 });
-// email event listner
+// message event listner
 messageval.addEventListener('input', () => {
   if (email.validity.valid) {
     messageerror.textContent = '';
