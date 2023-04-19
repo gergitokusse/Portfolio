@@ -326,10 +326,13 @@ function showError() {
   // let mylocaldata;
   if (email.validity.valueMissing) {
     emailError.innerHTML = 'Email filed can"t be empty!!!.';
+    emailError.className = 'error';
   } else if (email.validity.typeMismatch) {
     emailError.innerHTML = 'Entered value needs to be an email address !!!.';
+    emailError.className = 'error';
   } else if (email.validity.tooShort) {
     emailError.innerHTML = `Email should be at least ${email.minLength} characters; you entered ${email.value.length}.`;
+    emailError.className = 'error';
   } else if (email.value.match('[A-Z]+')) {
     emailError.innerHTML = 'It is not valide email, all letter should be in lower case !!!.';
   } else {
