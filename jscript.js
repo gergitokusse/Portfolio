@@ -335,8 +335,10 @@ function showError() {
     emailError.className = 'error';
   } else if (email.value.match('[A-Z]+')) {
     emailError.innerHTML = 'It is not valide email, all letter should be in lower case !!!.';
+    emailError.className = 'error';
   } else {
     emailError.innerHTML = 'Success !!!';
+    emailError.className = 'success';
     // local storage
     // mylocaldata = { name: name_val.value, email: email.value, message: message_val };
     // let storeD = JSON.stringify(mylocaldata);
