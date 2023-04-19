@@ -318,38 +318,69 @@ clickbtn.forEach((button) => {
 // form validation feature
 const form = document.querySelector('form');
 const email = document.getElementById('mail');
-const emailError = document.querySelector('#error');
-// const name_val = document.getElementById('name');
-// const message_val = document.getElementById('message');
+const nameval = document.getElementById('name');
+const messageval = document.getElementById('message');
+const emailError = document.querySelector('.erroremail');
+const nameerror = document.querySelector('.errorname');
+const messageerror = document.querySelector('.errormessage');
 
 function showError() {
-  // let mylocaldata;
+  // name validation
+  if (nameval.validity.valueMissing) {
+    nameerror.innerHTML = 'Name filed can"t be empty!!!.';
+    nameerror.className = 'error';
+  } else if (nameval.value.match('[0-1]+')) {
+    nameerror.innerHTML = 'Name can not be have numeric !!!';
+    nameerror.className = 'error';
+  } else {
+    nameerror.innerHTML = '';
+    nameerror.className = 'success';
+  }
+  // email validation
   if (email.validity.valueMissing) {
     emailError.innerHTML = 'Email filed can"t be empty!!!.';
     emailError.className = 'error';
   } else if (email.validity.typeMismatch) {
     emailError.innerHTML = 'Entered value needs to be an email address !!!.';
     emailError.className = 'error';
-  } else if (email.validity.tooShort) {
-    emailError.innerHTML = `Email should be at least ${email.minLength} characters; you entered ${email.value.length}.`;
-    emailError.className = 'error';
   } else if (email.value.match('[A-Z]+')) {
     emailError.innerHTML = 'It is not valide email, all letter should be in lower case !!!.';
     emailError.className = 'error';
   } else {
-    emailError.innerHTML = 'Success !!!';
+    emailError.innerHTML = '';
     emailError.className = 'success';
-    // local storage
-    // mylocaldata = { name: name_val.value, email: email.value, message: message_val };
-    // let storeD = JSON.stringify(mylocaldata);
-    // localStorage.setItem('mydata', storeD);
-    // end of local storage
+  }
+  // validate message
+  if (messageval.validity.valueMissing) {
+    messageerror.innerHTML = 'Message filed can"t be empty!!!.';
+    messageerror.className = 'error';
+  } else {
+    messageerror.innerHTML = '';
   }
 }
+// name event listner
+nameval.addEventListener('input', () => {
+  if (email.validity.valid) {
+    emailError.textContent = '';
+    emailError.className = 'error';
+  } else {
+    showError();
+  }
+});
+// email event listner
 email.addEventListener('input', () => {
   if (email.validity.valid) {
-    emailError.textContent = ''; // Reset the content of the message
-    emailError.className = 'error'; // Reset the visual state of the message
+    emailError.textContent = '';
+    emailError.className = 'error';
+  } else {
+    showError();
+  }
+});
+// email event listner
+messageval.addEventListener('input', () => {
+  if (email.validity.valid) {
+    messageerror.textContent = '';
+    messageerror.className = 'error';
   } else {
     showError();
   }
