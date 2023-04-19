@@ -335,7 +335,7 @@ function showError() {
   if (nameval.validity.valueMissing) {
     nameerror.innerHTML = 'Name filed can"t be empty!!!.';
     nameerror.className = 'error';
-  } else if (nameval.value.match('[0-1]+')) {
+  } else if (nameval.value.match('[0-9]+')) {
     nameerror.innerHTML = 'Name can not be have numeric !!!';
     nameerror.className = 'error';
   } else {
