@@ -324,10 +324,12 @@ const emailError = document.querySelector('.erroremail');
 const nameerror = document.querySelector('.errorname');
 const messageerror = document.querySelector('.errormessage');
 // parsing data from local storage
-const storage = JSON.parse(localStorage.getItem('myLocalData'));
-nameval.value = storage.Name;
-email.value = storage.Email;
-messageval.value = storage.Message;
+const storage = JSON.parse(localStorage.getItem('LocalData'));
+if (storage !== null) {
+  nameval.value = storage.Name;
+  email.value = storage.Email;
+  messageval.value = storage.Message;
+}
 function showError() {
   // name validation
   if (nameval.validity.valueMissing) {
@@ -360,8 +362,17 @@ function showError() {
     messageerror.innerHTML = '';
   }
 }
+// local storage
+const mylocaldata = { Name: nameval.value, Email: email.value, Message: messageval.value };
+const ls = JSON.stringify(mylocaldata);
+localStorage.setItem('LocalData', ls);
 // name event listner
 nameval.addEventListener('input', () => {
+  let existing = localStorage.getItem('LocalData');
+  existing = existing ? JSON.parse(existing) : {};
+  existing.Name = nameval.value;
+  localStorage.setItem('LocalData', JSON.stringify(existing));
+
   if (email.validity.valid) {
     emailError.textContent = '';
     emailError.className = 'error';
@@ -371,6 +382,11 @@ nameval.addEventListener('input', () => {
 });
 // email event listner
 email.addEventListener('input', () => {
+  let existing = localStorage.getItem('LocalData');
+  existing = existing ? JSON.parse(existing) : {};
+  existing.Email = email.value;
+  localStorage.setItem('LocalData', JSON.stringify(existing));
+
   if (email.validity.valid) {
     emailError.textContent = '';
     emailError.className = 'error';
@@ -380,6 +396,11 @@ email.addEventListener('input', () => {
 });
 // message event listner
 messageval.addEventListener('input', () => {
+  let existing = localStorage.getItem('LocalData');
+  existing = existing ? JSON.parse(existing) : {};
+  existing.Message = messageval.value;
+  localStorage.setItem('LocalData', JSON.stringify(existing));
+
   if (email.validity.valid) {
     messageerror.textContent = '';
     messageerror.className = 'error';
@@ -387,16 +408,13 @@ messageval.addEventListener('input', () => {
     showError();
   }
 });
+// local storage
 
 form.addEventListener('submit', (event) => {
   if (!email.validity.valid) {
     showError();
     event.preventDefault();
   }
-  // local storage
-  const mylocaldata = { Name: nameval.value, Email: email.value, Message: messageval.value };
-  const sdata = JSON.stringify(mylocaldata);
-  localStorage.setItem('myLocalData', sdata);
 });
 
 // end of form validation
