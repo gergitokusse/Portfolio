@@ -396,7 +396,7 @@ form.addEventListener('submit', (event) => {
   // local storage
   const mylocaldata = { Name: nameval.value, Email: email.value, Message: messageval.value };
   const sdata = JSON.stringify(mylocaldata);
-  localStorage.setItem('myLocalStorage', sdata);
+  localStorage.setItem('myLocalData', sdata);
 });
 
 // end of form validation
