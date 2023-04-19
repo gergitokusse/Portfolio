@@ -314,3 +314,81 @@ clickbtn.forEach((button) => {
     });
   });
 });
+
+// form validation feature
+const form = document.querySelector('form');
+const email = document.getElementById('mail');
+const nameval = document.getElementById('name');
+const messageval = document.getElementById('message');
+const emailError = document.querySelector('.erroremail');
+const nameerror = document.querySelector('.errorname');
+const messageerror = document.querySelector('.errormessage');
+
+function showError() {
+  // name validation
+  if (nameval.validity.valueMissing) {
+    nameerror.innerHTML = 'Name filed can"t be empty!!!.';
+    nameerror.className = 'error';
+  } else if (nameval.value.match('[0-1]+')) {
+    nameerror.innerHTML = 'Name can not be have numeric !!!';
+    nameerror.className = 'error';
+  } else {
+    nameerror.innerHTML = '';
+  }
+  // email validation
+  if (email.validity.valueMissing) {
+    emailError.innerHTML = 'Email filed can"t be empty!!!.';
+    emailError.className = 'error';
+  } else if (email.validity.typeMismatch) {
+    emailError.innerHTML = 'Entered value needs to be an email address !!!.';
+    emailError.className = 'error';
+  } else if (email.value.match('[A-Z]+')) {
+    emailError.innerHTML = 'It is not valide email, all letter should be in lower case !!!.';
+    emailError.className = 'error';
+  } else {
+    emailError.innerHTML = '';
+  }
+  // validate message
+  if (messageval.validity.valueMissing) {
+    messageerror.innerHTML = 'Message filed can"t be empty!!!.';
+    messageerror.className = 'error';
+  } else {
+    messageerror.innerHTML = '';
+  }
+}
+// name event listner
+nameval.addEventListener('input', () => {
+  if (email.validity.valid) {
+    emailError.textContent = '';
+    emailError.className = 'error';
+  } else {
+    showError();
+  }
+});
+// email event listner
+email.addEventListener('input', () => {
+  if (email.validity.valid) {
+    emailError.textContent = '';
+    emailError.className = 'error';
+  } else {
+    showError();
+  }
+});
+// message event listner
+messageval.addEventListener('input', () => {
+  if (email.validity.valid) {
+    messageerror.textContent = '';
+    messageerror.className = 'error';
+  } else {
+    showError();
+  }
+});
+
+form.addEventListener('submit', (event) => {
+  if (!email.validity.valid) {
+    showError();
+    event.preventDefault();
+  }
+});
+
+// end of form validation

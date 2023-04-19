@@ -75,7 +75,7 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://reactjs.org/">Html and Css</a></li>
   </ul>
 </details>
 
@@ -143,17 +143,6 @@ To run the project, execute the following command:
 launch index.html using live server or live preview
 ```
 
-### Run tests
-
-comming soon
-
-### Deployment
-
-You can deploy this project using:
-
-comming soon
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- AUTHORS -->
 
 ## 👥 Authors/Collaborators <a name="authors"></a>
@@ -218,7 +207,5 @@ I would like to thank microverse code reviews, student success team and collabor
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

@@ -493,24 +493,32 @@
             class="input-text"
             placeholder="Write your name"
             maxlength="30"
+            id="name"
             required
           />
+          <span class="errorname"></span>
           <input
             class="input-email"
             type="email"
-            name="user_email"
+            name="mail"
             placeholder="Write your email"
+            id="mail"
+            minlength="8"
             required
           />
+          <span class="erroremail"></span>
           <textarea
             name="text-message"
-            class="type-text"
+            class="type-text message"
             cols="30"
             rows="10"
             placeholder="Write your message here..."
+            id="message"
             maxlength="500"
             required
-          ></textarea>
+          ></textarea>          
+          <span class="errormessage"></span>
+          <span class="" id="error"></span>
           <button class="form-btn-2" type="submit">Get in touch</button>
         </form>
       </div>
