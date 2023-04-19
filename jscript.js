@@ -319,8 +319,10 @@ clickbtn.forEach((button) => {
 const form = document.querySelector('form');
 const email = document.getElementById('mail');
 const emailError = document.querySelector('#error');
-
+const name_val = document.getElementById('name');
+ const message_val = document.getElementById('message');
 function showError() {
+  let mylocaldata;
   if (email.validity.valueMissing) {
     emailError.innerHTML = 'You need to enter an email address !!!.';
     emailError.className = 'error';
