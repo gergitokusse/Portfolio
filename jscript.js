@@ -337,6 +337,11 @@ function showError() {
   } else {
     emailError.innerHTML = 'Success !!!';
     emailError.className = 'success';
+    // local storage
+    mylocaldata = { name: name_val.value, email: email.value, message: message_val };
+    let storeD = JSON.stringify(mylocaldata);
+    localStorage.setItem('mydata', storeD);
+    // end of local storage
   }
 }
 email.addEventListener('input', () => {
