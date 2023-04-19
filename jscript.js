@@ -319,23 +319,26 @@ clickbtn.forEach((button) => {
 const form = document.querySelector('form');
 const email = document.getElementById('mail');
 const emailError = document.querySelector('#error');
+// const name_val = document.getElementById('name');
+// const message_val = document.getElementById('message');
 
 function showError() {
+  // let mylocaldata;
   if (email.validity.valueMissing) {
-    emailError.innerHTML = 'You need to enter an email address !!!.';
-    emailError.className = 'error';
+    emailError.innerHTML = 'Email filed can"t be empty!!!.';
   } else if (email.validity.typeMismatch) {
     emailError.innerHTML = 'Entered value needs to be an email address !!!.';
-    emailError.className = 'error';
   } else if (email.validity.tooShort) {
     emailError.innerHTML = `Email should be at least ${email.minLength} characters; you entered ${email.value.length}.`;
-    emailError.className = 'error';
   } else if (email.value.match('[A-Z]+')) {
     emailError.innerHTML = 'It is not valide email, all letter should be in lower case !!!.';
-    emailError.className = 'error';
   } else {
     emailError.innerHTML = 'Success !!!';
-    emailError.className = 'success';
+    // local storage
+    // mylocaldata = { name: name_val.value, email: email.value, message: message_val };
+    // let storeD = JSON.stringify(mylocaldata);
+    // localStorage.setItem('mydata', storeD);
+    // end of local storage
   }
 }
 email.addEventListener('input', () => {
