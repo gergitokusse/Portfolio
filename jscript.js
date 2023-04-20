@@ -325,17 +325,17 @@ const nameerror = document.querySelector('.errorname');
 const messageerror = document.querySelector('.errormessage');
 // parsing data from local storage
 const storage = JSON.parse(localStorage.getItem('LocalData'));
-if (storage !== null) {
-  nameval.value = storage.Name;
-  email.value = storage.Email;
-  messageval.value = storage.Message;
-}
+
+nameval.value = storage.Name;
+email.value = storage.Email;
+messageval.value = storage.Message;
+
 function showError() {
   // name validation
   if (nameval.validity.valueMissing) {
     nameerror.innerHTML = 'Name filed can"t be empty!!!.';
     nameerror.className = 'error';
-  } else if (nameval.value.match('[0-9]+')) {
+   else if (nameval.value.match('[0-9]+')) {
     nameerror.innerHTML = 'Name can not be have numeric !!!';
     nameerror.className = 'error';
   } else {
@@ -395,7 +395,7 @@ email.addEventListener('input', () => {
   }
 });
 // message event listner
-messageval.addEventListener('input', () => {
+messageal.addEventListener('input', () => {
   let existing = localStorage.getItem('LocalData');
   existing = existing ? JSON.parse(existing) : {};
   existing.Message = messageval.value;
