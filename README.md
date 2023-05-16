@@ -33,7 +33,7 @@ After you're finished please remove all the comments and instructions!
   <h3><b>Gergito Portfoilo</b></h3>
 
 </div>
-<img src = "![image](https://github.com/gergitokusse/Portfolio-setup-and-mobile-first/assets/16529009/665ee4c8-8f48-404d-892d-39bc17cec677)
+<img src = "https://github.com/gergitokusse/Portfolio-setup-and-mobile-first/assets/16529009/665ee4c8-8f48-404d-892d-39bc17cec677
 "/>
 ![image](https://github.com/gergitokusse/Portfolio-setup-and-mobile-first/assets/16529009/ff34a8a0-cd31-4219-ad63-6d2fb944da10)
 ![image](https://github.com/gergitokusse/Portfolio-setup-and-mobile-first/assets/16529009/d4eea317-814f-4dd6-90ae-70da18cac501)
