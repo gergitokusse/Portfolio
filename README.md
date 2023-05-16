@@ -33,8 +33,6 @@ After you're finished please remove all the comments and instructions!
   <h3><b>Gergito Portfoilo</b></h3>
 
 </div>
-<img src = "https://github.com/gergitokusse/Portfolio-setup-and-mobile-first/assets/16529009/665ee4c8-8f48-404d-892d-39bc17cec677
-"/>
 
 
 <!-- TABLE OF CONTENTS -->
@@ -64,6 +62,8 @@ After you're finished please remove all the comments and instructions!
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Portfolio-setup-and-mobile-first] <a name="about-project"></a>
+- <img src = "https://github.com/gergitokusse/Portfolio-setup-and-mobile-first/assets/16529009/665ee4c8-8f48-404d-892d-39bc17cec677
+"/>
 
 **[This port folio is for Gergito As a software developer]**
 
