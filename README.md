@@ -35,10 +35,6 @@ After you're finished please remove all the comments and instructions!
 </div>
 <img src = "https://github.com/gergitokusse/Portfolio-setup-and-mobile-first/assets/16529009/665ee4c8-8f48-404d-892d-39bc17cec677
 "/>
-![image](https://github.com/gergitokusse/Portfolio-setup-and-mobile-first/assets/16529009/ff34a8a0-cd31-4219-ad63-6d2fb944da10)
-![image](https://github.com/gergitokusse/Portfolio-setup-and-mobile-first/assets/16529009/d4eea317-814f-4dd6-90ae-70da18cac501)
-![image](https://github.com/gergitokusse/Portfolio-setup-and-mobile-first/assets/16529009/d8ba9b4b-d04f-4da8-be00-d414d0a047ca)
-![image](https://github.com/gergitokusse/Portfolio-setup-and-mobile-first/assets/16529009/eb26f5aa-7015-4c04-8f84-e8417a89a1a6)
 
 
 <!-- TABLE OF CONTENTS -->
