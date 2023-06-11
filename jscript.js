@@ -247,46 +247,67 @@ clickbtn.forEach((button) => {
     prodec.className = 'project-describtion';
     const desc1 = document.createElement('div');
     desc1.className = 'description-p';
-    desc1.innerHTML = `
-      <p>${projects[button.id].projectDescription.description1.p1}</p>
-      <p>${projects[button.id].projectDescription.description1.p2}</p>
-    `;
     prodec.appendChild(desc1);
+
+    const desc1p1 = document.createElement('p');
+    desc1p1.innerHTML = projects[button.id].projectDescription.description1.p1;
+    const desc1p2 = document.createElement('p');
+    desc1p2.innerHTML = projects[button.id].projectDescription.description1.p2;
+    desc1.appendChild(desc1p1);
+    desc1.appendChild(desc1p2);
 
     const desc2 = document.createElement('div');
     desc2.className = 'description-technology';
     prodec.appendChild(desc2);
     const desct1 = document.createElement('div');
     desct1.className = 'spans';
-    desct1.innerHTML = `
-      <p>${projects[button.id].projectDescription.description2.spans.s1}</p>
-      <p>${projects[button.id].projectDescription.description2.spans.s2}</p>
-      <p>${projects[button.id].projectDescription.description2.spans.s3}</p>
-      <p>${projects[button.id].projectDescription.description2.spans.s4}</p>
-      <p>${projects[button.id].projectDescription.description2.spans.s5}</p>
-    `;
     desc2.appendChild(desct1);
+
+    const desct1p1 = document.createElement('p');
+    desct1p1.innerHTML = projects[button.id].projectDescription.description2.spans.s1;
+    const desct1p2 = document.createElement('p');
+    desct1p2.innerHTML = projects[button.id].projectDescription.description2.spans.s2;
+    const desct1p3 = document.createElement('p');
+    desct1p3.innerHTML = projects[button.id].projectDescription.description2.spans.s3;
+    const desct1p4 = document.createElement('p');
+    desct1p4.innerHTML = projects[button.id].projectDescription.description2.spans.s4;
+    const desct1p5 = document.createElement('p');
+    desct1p5.innerHTML = projects[button.id].projectDescription.description2.spans.s5;
+    desct1.appendChild(desct1p1);
+    desct1.appendChild(desct1p2);
+    desct1.appendChild(desct1p3);
+    desct1.appendChild(desct1p4);
+    desct1.appendChild(desct1p5);
 
     const desct2 = document.createElement('div');
     desct2.className = 'buttons';
-    desct2.innerHTML = `
-      <a href = "${projects[button.id].projectLinktolive}" >
-      ${projects[button.id].projectDescription.description2.buttons.btn1}
-      </a>
-      <a href = "${projects[button.id].projectlinktosource}" >
-      ${projects[button.id].projectDescription.description2.buttons.btn2}
-      </a>
-    `;
     desc2.appendChild(desct2);
+
+    const a1 = document.createElement('a');
+    a1.innerHTML = projects[button.id].projectDescription.description2.buttons.btn1;
+    a1.href = projects[button.id].projectLinktolive;
+    desct2.appendChild(a1);
+    const a2 = document.createElement('a');
+    a2.innerHTML = projects[button.id].projectDescription.description2.buttons.btn2;
+    a2.href = projects[button.id].projectlinktosource;
+
+    desct2.appendChild(a1);
+    desct2.appendChild(a2);
     container.appendChild(prodec);
 
     const pronav = document.createElement('div');
     pronav.className = 'project-navigation';
-    // privouse and next btn
-    pronav.innerHTML = `
-      <button>${projects[button.id].pronav.buttons.btn1}</button>
-      <button>${projects[button.id].pronav.buttons.btn2}</button>
-    `;
+    //new code 
+    // pronav.innerHTML = `
+    //   <button>${projects[button.id].pronav.buttons.btn1}</button>
+    //   <button>${projects[button.id].pronav.buttons.btn2}</button>
+    // `;
+    const pronavbt1 = document.createElement('button');
+    pronavbt1.innerHTML = projects[button.id].pronav.buttons.btn1;
+    const pronavbt2 = document.createElement('button');
+    pronavbt2.innerHTML = projects[button.id].pronav.buttons.btn2;
+    pronav.appendChild(pronavbt1);
+    pronav.appendChild(pronavbt2);
 
     container.appendChild(pronav);
     pupmain.appendChild(container);
@@ -338,7 +359,7 @@ function showError() {
   } else {
     emailError.innerHTML = '';
   }
-  // message validation
+  // validate message
   if (messageval.validity.valueMissing) {
     messageerror.innerHTML = 'Message filed can"t be empty!!!.';
     messageerror.className = 'error';
@@ -400,4 +421,5 @@ form.addEventListener('submit', (event) => {
     event.preventDefault();
   }
 });
+
 // end of form validation
