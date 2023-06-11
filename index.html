@@ -23,7 +23,7 @@
     <title>Gergito Portofilio</title>
   </head>
 
-  <body>
+  <body class="non">
     <div class="main_container">
       <header class="header background-white">
         <nav class="navigation_bar flex">
@@ -32,16 +32,17 @@
             class="navigation_bar__link link size-20 weight-700 line_hieght-20 bar_head"
             >GERGITO</a
           >
+          <span class="close-btn non-visible">X</span>
           <img
             alt = "Click here to get nab bar"
             class="navigation_bar__hamb hamburguer-img"
             src="img/hamburguer.png"
             alt="hamburguer icon"
           />
-          <ul class="navigation_bar menu-list">
-            <li><a href="#works" >Portfolio</a> </li>
-            <li><a href="#about" >About</a></li>
-            <li><a href="#contact-me" >Contact</a></li>
+          <ul class="menu-list non-visible">
+            <li><a class="li-a" href="#works" >Portfolio</a> </li>
+            <li><a class="li-a2" href="#about" >About</a></li>
+            <li><a class="li-a3" href="#contact-me" >Contact</a></li>
           </ul>
         </nav>
       </header>
@@ -149,7 +150,7 @@
               <div class="card__btn">
                 <button
                   type="button"
-                  class="btn weight-500 size-17 line_hieght-24 clr-p-500 first-btn"
+                  class="btn weight-500 size-17 line_hieght-24 clr-p-500 first-btn btn-1"
                   id="0"
                 >
                   See Project
@@ -213,7 +214,7 @@
                 <button
                   type="button"
                   class="btn weight-500 size-17 line_hieght-24 clr-p-500 background-white first-btn"
-                  id="0"
+                  id="1"
                 >
                   See Project
                 </button>
@@ -276,7 +277,7 @@
                 <button
                   type="button"
                   class="btn weight-500 size-17 line_hieght-24 clr-p-500 background-white first-btn"
-                  id="0"
+                  id="2"
                 >
                   See Project
                 </button>
@@ -339,7 +340,7 @@
                 <button
                   type="button"
                   class="btn weight-500 size-17 line_hieght-24 clr-p-500 background-white first-btn"
-                  id="0"
+                  id="3"
                 >
                   See Project
                 </button>
@@ -493,27 +494,36 @@
             class="input-text"
             placeholder="Write your name"
             maxlength="30"
+            id="name"
             required
           />
+          <span class="errorname"></span>
           <input
             class="input-email"
             type="email"
-            name="user_email"
+            name="mail"
             placeholder="Write your email"
+            id="mail"
+            minlength="8"
             required
           />
+          <span class="erroremail"></span>
           <textarea
             name="text-message"
-            class="type-text"
+            class="type-text message"
             cols="30"
             rows="10"
             placeholder="Write your message here..."
+            id="message"
             maxlength="500"
             required
-          ></textarea>
+          ></textarea>          
+          <span class="errormessage"></span>
+          <span class="" id="error"></span>
           <button class="form-btn-2" type="submit">Get in touch</button>
         </form>
       </div>
     </section>
   </body>
+  <script src="jscript.js"></script>
 </html>

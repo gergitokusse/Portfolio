@@ -30,9 +30,10 @@ After you're finished please remove all the comments and instructions!
   <img src="img/index.jpg" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Gergito Portfoilo Desktop version</b></h3>
+  <h3><b>Gergito Portfoilo</b></h3>
 
 </div>
+
 
 <!-- TABLE OF CONTENTS -->
 
@@ -61,6 +62,8 @@ After you're finished please remove all the comments and instructions!
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Portfolio-setup-and-mobile-first] <a name="about-project"></a>
+- <img src = "https://github.com/gergitokusse/Portfolio-setup-and-mobile-first/assets/16529009/665ee4c8-8f48-404d-892d-39bc17cec677
+"/>
 
 **[This port folio is for Gergito As a software developer]**
 
@@ -75,7 +78,7 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://reactjs.org/">Html and Css</a></li>
   </ul>
 </details>
 
@@ -143,17 +146,6 @@ To run the project, execute the following command:
 launch index.html using live server or live preview
 ```
 
-### Run tests
-
-comming soon
-
-### Deployment
-
-You can deploy this project using:
-
-comming soon
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- AUTHORS -->
 
 ## 👥 Authors/Collaborators <a name="authors"></a>
@@ -188,6 +180,11 @@ comming soon
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
+<!-- CONTRIBUTING -->
+
+## 🤝 Project presentation <a name="contributing"></a>
+1. To get presentation in document [click here](https://docs.google.com/document/d/182c0XIIenSfAChnws_kXmGt4o1HCW4vnt7FEWjRUt_w/edit?usp=sharing).
+2. To get presentation in video [click here](https://www.loom.com/share/b8c98505adb5443db7e842baf8fbda21).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -213,7 +210,5 @@ I would like to thank microverse code reviews, student success team and collabor
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
