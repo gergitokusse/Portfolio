@@ -297,11 +297,6 @@ clickbtn.forEach((button) => {
 
     const pronav = document.createElement('div');
     pronav.className = 'project-navigation';
-    //new code 
-    // pronav.innerHTML = `
-    //   <button>${projects[button.id].pronav.buttons.btn1}</button>
-    //   <button>${projects[button.id].pronav.buttons.btn2}</button>
-    // `;
     const pronavbt1 = document.createElement('button');
     pronavbt1.innerHTML = projects[button.id].pronav.buttons.btn1;
     const pronavbt2 = document.createElement('button');
