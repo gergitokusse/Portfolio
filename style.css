@@ -944,32 +944,14 @@ nav a:hover {
   }
 }
 
+/* new css */
 .form-container-2 {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-repeat: no-repeat;
-  background-color: #6070ff;
-  border-top-left-radius: 180px 100px;
-  margin-top: -20px;
-  background-image:
-    url("./img/Ellipse\ 13\ \(2\).png"),
-    url("./img/Ellipse\ 5\ \(2\).png"),
-    url("./img/Rectangle\ 7\ \(2\).png"),
-    url("./img/Ellipse\ 3\ \(4\).png"),
-    url("./img/Rectangle\ 4\ \(4\).png"),
-    url("./img/Ellipse\ 12\ \(2\).png"),
-    url("./img/Rectangle\ 6\ \(3\).png"),
-    url("./img/Ellipse\ 11\ \(3\).png");
-  background-position:
-    80% 80%,
-    3% 50%,
-    3% 48%,
-    93% 90px,
-    90% 60px,
-    35% 75px,
-    19% 95%,
-    20% 97%;
+  height: 779px;
+  margin-top: 30px;
 }
 
 .form-header-2 {
@@ -979,7 +961,7 @@ nav a:hover {
   font-weight: 700;
   font-size: 40px;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 110px;
   line-height: 52px;
   color: #fff;
 }

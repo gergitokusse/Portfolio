@@ -30,7 +30,7 @@ After you're finished please remove all the comments and instructions!
   <img src="img/index.jpg" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Gergito Portfoilo</b></h3>
+  <h3><b>Gergito's Portfoilo</b></h3>
 
 </div>
 
@@ -65,20 +65,18 @@ After you're finished please remove all the comments and instructions!
 - <img src = "https://github.com/gergitokusse/Portfolio-setup-and-mobile-first/assets/16529009/665ee4c8-8f48-404d-892d-39bc17cec677
 "/>
 
-**[This port folio is for Gergito As a software developer]**
+**[This portfolio is for Gergito As a software developer]**
 
 ## 🛠 Built With <a name="built-with"></a>
--Html
+->Html
 -Css
 -Github
 
 ### Tech Stack <a name="tech-stack"></a>
-
-
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">Html and Css</a></li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
 
@@ -87,8 +85,6 @@ After you're finished please remove all the comments and instructions!
 ### Key Features <a name="key-features"></a>
 
 - **[added html, css, ]**
-- **[added Contact form]**
-- **[added Desktop version]**
 - **[Github flow and linters]**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,11 +96,11 @@ After you're finished please remove all the comments and instructions!
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
-### Prerequisites
+## Prerequisites
 
-1- Web browser
-2- Code editor
-3- Version Control System (git)
+#### 1- Web browser 
+#### 2- Code editor
+#### 3- Version Control System (git)
 ### Setup
 
 Clone this repository to your desired folder:
@@ -117,16 +113,6 @@ Run this commands:
 ```
 
 -
-
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
-
 ### Install
 
 Install this project with:
@@ -164,7 +150,6 @@ launch index.html using live server or live preview
 
 - [ ] [Add Header]
 - [ ] [Add Main]
-- [ ] [Add contact form]
 - [ ] [Add footer]
 - [ ] [Add styling]
 
@@ -200,7 +185,7 @@ If you like this project hit the like button
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank microverse code reviews, student success team and collaboretrs who participate on the project.
+I would like to thank microverse code reviews
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
