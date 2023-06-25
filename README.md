@@ -34,6 +34,7 @@ After you're finished please remove all the comments and instructions!
 
 </div>
 
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -61,6 +62,8 @@ After you're finished please remove all the comments and instructions!
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Portfolio-setup-and-mobile-first] <a name="about-project"></a>
+- <img src = "https://github.com/gergitokusse/Portfolio-setup-and-mobile-first/assets/16529009/665ee4c8-8f48-404d-892d-39bc17cec677
+"/>
 
 **[This portfolio is for Gergito As a software developer]**
 
@@ -73,7 +76,7 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js(Loading...)</a></li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
 
@@ -81,7 +84,7 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- **[added html, css, and contact form]**
+- **[added html, css, ]**
 - **[Github flow and linters]**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,20 +132,9 @@ To run the project, execute the following command:
 launch index.html using live server or live preview
 ```
 
-### Run tests
-
-comming soon
-
-### Deployment
-
-You can deploy this project using:
-
-comming soon
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Authors/Collaborators <a name="authors"></a>
 
 👤 **Gergito K.**
 
@@ -156,12 +148,13 @@ comming soon
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] [Add Header section]
-- [ ] [Add Main section]
-- [ ] [Add Contact form section]
+- [ ] [Add Header]
+- [ ] [Add Main]
 - [ ] [Add footer]
 - [ ] [Add styling]
 
+## Live demo
+<a href = "https://gergitokusse.github.io/Portfolio-setup-and-mobile-first/" >click her...</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -172,6 +165,11 @@ comming soon
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
+<!-- CONTRIBUTING -->
+
+## 🤝 Project presentation <a name="contributing"></a>
+1. To get presentation in document [click here](https://docs.google.com/document/d/182c0XIIenSfAChnws_kXmGt4o1HCW4vnt7FEWjRUt_w/edit?usp=sharing).
+2. To get presentation in video [click here](https://www.loom.com/share/b8c98505adb5443db7e842baf8fbda21).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -187,22 +185,15 @@ If you like this project hit the like button
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank microverse code reviews and my code partners who collabore on the project work.
+I would like to thank microverse code reviews
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
