@@ -304,7 +304,7 @@ clickbtn.forEach((button) => {
     pronav.appendChild(pronavbt1);
     pronav.appendChild(pronavbt2);
 
-    // container.appendChild(pronav);
+    container.appendChild(pronav);
     pupmain.appendChild(container);
     body.appendChild(pupmain);
 
