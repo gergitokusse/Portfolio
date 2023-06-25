@@ -1017,11 +1017,6 @@ nav a:hover {
   transition-delay: 0.5s;
 }
 
-.form-btn-2:hover {
-  background-color: rgb(61, 46, 197);
-  color: white;
-}
-
 .form-btn-2:focus {
   background-color: rgb(61, 46, 197);
   color: white;
