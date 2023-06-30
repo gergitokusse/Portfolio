@@ -154,7 +154,7 @@ launch index.html using live server or live preview
 - [ ] [Add styling]
 
 ## Live demo
-<a href = "https://gergitokusse.github.io/Portfolio-setup-and-mobile-first/" >click her...</a>
+<a href = "https://gergitokusse.github.io/Portfolio/" >click her...</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
